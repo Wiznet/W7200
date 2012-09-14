@@ -1,0 +1,922 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V5.41.0.51741/W32 for ARM              04/Sep/2012  17:31:27 #
+# Copyright (C) 2007-2009 IAR Systems AB.                                     #
+#                                                                             #
+#    Output file  =  C:\Documents and Settings\Young-Wan\My                   #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Exe\W5200 #
+#                    EVB_App.out                                              #
+#    Map file     =  C:\Documents and Settings\Young-Wan\My                   #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\List\W520 #
+#                    0EVB_App.map                                             #
+#    Command line =  "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\SPI1. #
+#                    o" "C:\Documents and Settings\Young-Wan\My               #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\base6 #
+#                    4.o" "C:\Documents and Settings\Young-Wan\My             #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\core_ #
+#                    cm3.o" "C:\Documents and Settings\Young-Wan\My           #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\dhcp. #
+#                    o" "C:\Documents and Settings\Young-Wan\My               #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\dns.o #
+#                    " "C:\Documents and Settings\Young-Wan\My                #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\dns_p #
+#                    arse.o" "C:\Documents and Settings\Young-Wan\My          #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\hyper #
+#                    terminal.o" "C:\Documents and Settings\Young-Wan\My      #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\loopb #
+#                    ack.o" "C:\Documents and Settings\Young-Wan\My           #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\main. #
+#                    o" "C:\Documents and Settings\Young-Wan\My               #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\misc. #
+#                    o" "C:\Documents and Settings\Young-Wan\My               #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\smtp. #
+#                    o" "C:\Documents and Settings\Young-Wan\My               #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\socke #
+#                    t.o" "C:\Documents and Settings\Young-Wan\My             #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\socku #
+#                    til.o" "C:\Documents and Settings\Young-Wan\My           #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\start #
+#                    up_stm32f10x_md.o" "C:\Documents and                     #
+#                    Settings\Young-Wan\My Documents\W5200_newAPI\Application #
+#                     Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\stm3 #
+#                    2f10x_bkp.o" "C:\Documents and Settings\Young-Wan\My     #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\stm32 #
+#                    f10x_exti.o" "C:\Documents and Settings\Young-Wan\My     #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\stm32 #
+#                    f10x_flash.o" "C:\Documents and Settings\Young-Wan\My    #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\stm32 #
+#                    f10x_gpio.o" "C:\Documents and Settings\Young-Wan\My     #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\stm32 #
+#                    f10x_it.o" "C:\Documents and Settings\Young-Wan\My       #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\stm32 #
+#                    f10x_rcc.o" "C:\Documents and Settings\Young-Wan\My      #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\stm32 #
+#                    f10x_spi.o" "C:\Documents and Settings\Young-Wan\My      #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\stm32 #
+#                    f10x_tim.o" "C:\Documents and Settings\Young-Wan\My      #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\stm32 #
+#                    f10x_usart.o" "C:\Documents and Settings\Young-Wan\My    #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\syste #
+#                    m_stm32f10x.o" "C:\Documents and Settings\Young-Wan\My   #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\util. #
+#                    o" "C:\Documents and Settings\Young-Wan\My               #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj\w5200 #
+#                    .o" -o "C:\Documents and Settings\Young-Wan\My           #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Exe\W5200 #
+#                    EVB_App.out" --map "C:\Documents and                     #
+#                    Settings\Young-Wan\My Documents\W5200_newAPI\Application #
+#                     Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\List\W52 #
+#                    00EVB_App.map" --config "C:\Program Files\IAR            #
+#                    Systems\Embedded Workbench 5.4\arm\CONFIG\generic_cortex #
+#                    .icf" --semihosting --entry __iar_program_start          #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__endian      = little
+__thumb_aware = enabled
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0007ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] {
+          rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xec
+  .intvec            ro code  0x00000000    0xec  startup_stm32f10x_md.o [1]
+                            - 0x000000ec    0xec
+
+"P1":                                     0x7690
+  .text              ro code  0x000000ec  0x1182  socket.o [1]
+  .text              ro code  0x00001270  0x1018  dhcp.o [1]
+  .text              ro code  0x00002288   0xcc2  xprintffull.o [3]
+  .text              ro code  0x00002f4c   0x66c  hyperterminal.o [1]
+  .text              ro code  0x000035b8   0x5ee  w5200.o [1]
+  .text              ro code  0x00003ba8   0x4ce  main.o [1]
+  .text              ro code  0x00004078   0x2f0  smtp.o [1]
+  .text              ro code  0x00004368   0x2d8  stm32f10x_rcc.o [1]
+  .text              ro code  0x00004640   0x2be  sockutil.o [1]
+  .text              ro code  0x000048fe   0x2ba  dns_parse.o [1]
+  .text              ro code  0x00004bb8   0x246  DblDiv.o [4]
+  .text              ro code  0x00004e00   0x1ac  dns.o [1]
+  .text              ro code  0x00004fac   0x1a2  DblMul.o [4]
+  .text              ro code  0x00005150   0x17e  DblSub.o [4]
+  .text              ro code  0x000052d0   0x160  base64.o [1]
+  .text              ro code  0x00005430   0x15c  util.o [1]
+  .text              ro code  0x0000558c   0x158  system_stm32f10x.o [1]
+  .text              ro code  0x000056e4   0x140  loopback.o [1]
+  .text              ro code  0x00005824   0x12e  I64DivMod.o [4]
+  .text              ro code  0x00005954   0x12c  stm32f10x_gpio.o [1]
+  .text              ro code  0x00005a80   0x12c  stm32f10x_tim.o [1]
+  .text              ro code  0x00005bac   0x108  xdscale.o [3]
+  .text              ro code  0x00005cb4   0x102  stm32f10x_usart.o [1]
+  .text              ro code  0x00005db8    0xe6  DblAdd.o [4]
+  .text              ro code  0x00005ea0    0xdc  stm32f10x_exti.o [1]
+  .text              ro code  0x00005f7c    0xc6  xdnorm.o [3]
+  .text              ro code  0x00006044    0xb0  SPI1.o [1]
+  .text              ro code  0x000060f4    0x98  misc.o [1]
+  .text              ro code  0x0000618c    0x96  packbits_init2.o [4]
+  .text              ro code  0x00006224    0x74  stm32f10x_spi.o [1]
+  .text              ro code  0x00006298    0x70  ABImemcpy.o [4]
+  .text              ro code  0x00006308    0x6c  strncpy.o [4]
+  .text              ro code  0x00006374    0x66  ABImemset.o [4]
+  .text              ro code  0x000063dc    0x62  memcmp.o [4]
+  .rodata            const    0x00006440    0x60  dhcp.o [1]
+  .text              ro code  0x000064a0    0x58  memchr.o [4]
+  .text              ro code  0x000064f8    0x56  DblToI32.o [4]
+  .text              ro code  0x00006550    0x44  strcpy.o [4]
+  .text              ro code  0x00006594    0x42  strcmp.o [4]
+  .rodata            const    0x000065d8    0x40  base64.o [1]
+  .rodata            const    0x00006618    0x40  hyperterminal.o [1]
+  .rodata            const    0x00006658    0x40  hyperterminal.o [1]
+  .rodata            const    0x00006698    0x40  hyperterminal.o [1]
+  .rodata            const    0x000066d8    0x3c  hyperterminal.o [1]
+  .rodata            const    0x00006714    0x3c  hyperterminal.o [1]
+  .text              ro code  0x00006750    0x38  stm32f10x_flash.o [1]
+  .text              ro code  0x00006788    0x38  ABImemset48.o [4]
+  .text              ro code  0x000067c0    0x38  stm32f10x_it.o [1]
+  .text              ro code  0x000067f8    0x36  strlen.o [4]
+  .rodata            const    0x00006830    0x34  dhcp.o [1]
+  .rodata            const    0x00006864    0x34  hyperterminal.o [1]
+  .rodata            const    0x00006898    0x34  hyperterminal.o [1]
+  .rodata            const    0x000068cc    0x30  dhcp.o [1]
+  .rodata            const    0x000068fc    0x30  hyperterminal.o [1]
+  .rodata            const    0x0000692c    0x30  main.o [1]
+  .text              ro code  0x0000695c    0x30  sprintf.o [3]
+  .text              ro code  0x0000698c    0x2e  DblCmpLe.o [4]
+  .text              ro code  0x000069bc    0x2e  DblCmpGe.o [4]
+  .text              ro code  0x000069ec    0x2e  I32ToDbl.o [4]
+  .rodata            const    0x00006a1c    0x2c  dhcp.o [1]
+  .rodata            const    0x00006a48    0x2c  dhcp.o [1]
+  .rodata            const    0x00006a74    0x2c  dhcp.o [1]
+  .rodata            const    0x00006aa0    0x2c  main.o [1]
+  .rodata            const    0x00006acc    0x2c  main.o [1]
+  .rodata            const    0x00006af8    0x2c  smtp.o [1]
+  .text              ro code  0x00006b24    0x2a  strncmp.o [3]
+  .rodata            const    0x00006b50    0x28  dhcp.o [1]
+  .rodata            const    0x00006b78    0x28  dhcp.o [1]
+  .rodata            const    0x00006ba0    0x28  main.o [1]
+  .rodata            const    0x00006bc8    0x28  main.o [1]
+  .rodata            const    0x00006bf0    0x28  main.o [1]
+  .rodata            const    0x00006c18    0x28  main.o [1]
+  .rodata            const    0x00006c40    0x24  dhcp.o [1]
+  .iar.init_table    const    0x00006c64    0x2c  - Linker created -
+  .rodata            const    0x00006c90    0x20  dhcp.o [1]
+  .rodata            const    0x00006cb0    0x20  dhcp.o [1]
+  .rodata            const    0x00006cd0    0x20  dhcp.o [1]
+  .rodata            const    0x00006cf0    0x20  dhcp.o [1]
+  .rodata            const    0x00006d10    0x20  dhcp.o [1]
+  .rodata            const    0x00006d30    0x20  loopback.o [1]
+  .rodata            const    0x00006d50    0x20  loopback.o [1]
+  .rodata            const    0x00006d70    0x20  sockutil.o [1]
+  .text              ro code  0x00006d90    0x20  printf.o [3]
+  .text              ro code  0x00006db0    0x20  data_init2.o [4]
+  .rodata            const    0x00006dd0    0x1c  dhcp.o [1]
+  .rodata            const    0x00006dec    0x1c  dhcp.o [1]
+  .rodata            const    0x00006e08    0x1c  dhcp.o [1]
+  .rodata            const    0x00006e24    0x1c  dhcp.o [1]
+  .rodata            const    0x00006e40    0x1c  hyperterminal.o [1]
+  .rodata            const    0x00006e5c    0x1c  hyperterminal.o [1]
+  .rodata            const    0x00006e78    0x1c  hyperterminal.o [1]
+  .rodata            const    0x00006e94    0x1c  hyperterminal.o [1]
+  .rodata            const    0x00006eb0    0x1c  main.o [1]
+  .rodata            const    0x00006ecc    0x1c  main.o [1]
+  .rodata            const    0x00006ee8    0x1c  smtp.o [1]
+  .text              ro code  0x00006f04    0x1c  iarwstd.o [5]
+  .text              ro code  0x00006f20    0x1a  zero_init2.o [4]
+  .rodata            const    0x00006f3c    0x18  dhcp.o [1]
+  .rodata            const    0x00006f54    0x18  dhcp.o [1]
+  .rodata            const    0x00006f6c    0x18  dhcp.o [1]
+  .rodata            const    0x00006f84    0x18  dhcp.o [1]
+  .rodata            const    0x00006f9c    0x18  dhcp.o [1]
+  .rodata            const    0x00006fb4    0x18  hyperterminal.o [1]
+  .rodata            const    0x00006fcc    0x18  hyperterminal.o [1]
+  .rodata            const    0x00006fe4    0x18  hyperterminal.o [1]
+  .rodata            const    0x00006ffc    0x18  hyperterminal.o [1]
+  .rodata            const    0x00007014    0x18  hyperterminal.o [1]
+  .rodata            const    0x0000702c    0x18  hyperterminal.o [1]
+  .rodata            const    0x00007044    0x18  hyperterminal.o [1]
+  .rodata            const    0x0000705c    0x18  loopback.o [1]
+  .rodata            const    0x00007074    0x18  loopback.o [1]
+  .rodata            const    0x0000708c    0x18  main.o [1]
+  .text              ro code  0x000070a4    0x18  cmain.o [4]
+  .text              ro code  0x000070bc    0x16  strchr.o [4]
+  .text              ro code  0x000070d2    0x16  xprout.o [3]
+  .rodata            const    0x000070e8    0x14  dhcp.o [1]
+  .rodata            const    0x000070fc    0x14  dhcp.o [1]
+  .rodata            const    0x00007110    0x14  dhcp.o [1]
+  .rodata            const    0x00007124    0x14  hyperterminal.o [1]
+  .rodata            const    0x00007138    0x14  hyperterminal.o [1]
+  .rodata            const    0x0000714c    0x14  hyperterminal.o [1]
+  .rodata            const    0x00007160    0x14  hyperterminal.o [1]
+  .rodata            const    0x00007174    0x14  hyperterminal.o [1]
+  .rodata            const    0x00007188    0x14  hyperterminal.o [1]
+  .rodata            const    0x0000719c    0x14  hyperterminal.o [1]
+  .rodata            const    0x000071b0    0x14  hyperterminal.o [1]
+  .rodata            const    0x000071c4    0x14  hyperterminal.o [1]
+  .rodata            const    0x000071d8    0x14  hyperterminal.o [1]
+  .rodata            const    0x000071ec    0x14  hyperterminal.o [1]
+  .rodata            const    0x00007200    0x14  hyperterminal.o [1]
+  .rodata            const    0x00007214    0x14  hyperterminal.o [1]
+  .rodata            const    0x00007228    0x14  hyperterminal.o [1]
+  .rodata            const    0x0000723c    0x14  hyperterminal.o [1]
+  .rodata            const    0x00007250    0x14  hyperterminal.o [1]
+  .rodata            const    0x00007264    0x14  hyperterminal.o [1]
+  .rodata            const    0x00007278    0x14  hyperterminal.o [1]
+  .rodata            const    0x0000728c    0x14  hyperterminal.o [1]
+  .rodata            const    0x000072a0    0x14  hyperterminal.o [1]
+  .rodata            const    0x000072b4    0x14  hyperterminal.o [1]
+  .rodata            const    0x000072c8    0x14  main.o [1]
+  .rodata            const    0x000072dc    0x14  main.o [1]
+  .rodata            const    0x000072f0    0x14  main.o [1]
+  .rodata            const    0x00007304    0x14  smtp.o [1]
+  .rodata            const    0x00007318    0x14  smtp.o [1]
+  .rodata            const    0x0000732c    0x14  smtp.o [1]
+  .rodata            const    0x00007340    0x14  smtp.o [1]
+  .text              ro code  0x00007354    0x14  exit.o [5]
+  .text              ro code  0x00007368    0x14  dhcp.o [1]
+  .rodata            const    0x0000737c    0x10  dhcp.o [1]
+  .rodata            const    0x0000738c    0x10  hyperterminal.o [1]
+  .rodata            const    0x0000739c    0x10  hyperterminal.o [1]
+  .rodata            const    0x000073ac    0x10  hyperterminal.o [1]
+  .rodata            const    0x000073bc    0x10  hyperterminal.o [1]
+  .rodata            const    0x000073cc    0x10  loopback.o [1]
+  .rodata            const    0x000073dc    0x10  smtp.o [1]
+  .rodata            const    0x000073ec    0x10  smtp.o [1]
+  .text              ro code  0x000073fc    0x10  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000740c     0xe  dhcp.o [1]
+  .text              ro code  0x0000741a     0xe  div.o [3]
+  .rodata            const    0x00007428     0xc  dhcp.o [1]
+  .rodata            const    0x00007434     0xc  dhcp.o [1]
+  .rodata            const    0x00007440     0xc  hyperterminal.o [1]
+  .rodata            const    0x0000744c     0xc  hyperterminal.o [1]
+  .rodata            const    0x00007458     0xc  hyperterminal.o [1]
+  .rodata            const    0x00007464     0xc  hyperterminal.o [1]
+  .rodata            const    0x00007470     0xc  loopback.o [1]
+  .rodata            const    0x0000747c     0xc  smtp.o [1]
+  .rodata            const    0x00007488     0xc  smtp.o [1]
+  .rodata            const    0x00007494     0xc  smtp.o [1]
+  .rodata            const    0x000074a0     0xc  smtp.o [1]
+  .rodata            const    0x000074ac     0xc  smtp.o [1]
+  .rodata            const    0x000074b8     0xc  smtp.o [1]
+  .rodata            const    0x000074c4     0xc  smtp.o [1]
+  .rodata            const    0x000074d0     0xc  sockutil.o [1]
+  .text              ro code  0x000074dc     0xa  cexit.o [4]
+  .text              ro code  0x000074e6     0xa  xsprout.o [3]
+  .rodata            const    0x000074f0     0x8  dhcp.o [1]
+  .rodata            const    0x000074f8     0x8  dhcp.o [1]
+  .rodata            const    0x00007500     0x8  dhcp.o [1]
+  .rodata            const    0x00007508     0x8  dhcp.o [1]
+  .rodata            const    0x00007510     0x8  hyperterminal.o [1]
+  .rodata            const    0x00007518     0x8  hyperterminal.o [1]
+  .rodata            const    0x00007520     0x8  smtp.o [1]
+  .rodata            const    0x00007528     0x8  smtp.o [1]
+  .rodata            const    0x00007530     0x8  smtp.o [1]
+  .rodata            const    0x00007538     0x8  smtp.o [1]
+  .rodata            const    0x00007540     0x8  socket.o [1]
+  .rodata            const    0x00007548     0x8  socket.o [1]
+  .rodata            const    0x00007550     0x8  xprintffull.o [3]
+  .text              ro code  0x00007558     0x6  ABImemclr4.o [4]
+  .text              ro code  0x0000755e     0x6  exit.o [3]
+  .text              ro code  0x00007564     0x2  I64DivZer.o [4]
+  .text              ro code  0x00007566     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000756a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000756e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007572     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007576     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000757a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000757e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007582     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007586     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000758a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000758e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007592     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007596     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000759a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000759e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075a2     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075a6     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075aa     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075ae     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075b2     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075b6     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075ba     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075be     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075c2     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075c6     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075ca     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075ce     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075d2     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075d6     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075da     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075de     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075e2     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075e6     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075ea     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075ee     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075f2     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075f6     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075fa     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000075fe     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007602     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007606     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000760a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000760e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007612     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007616     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000761a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000761e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007622     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007626     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000762a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000762e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007632     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00007636     0x4  low_level_init.o [3]
+  Initializer bytes  ro data  0x0000763a   0x142  <for P2 s0>
+                            - 0x0000777c  0x7690
+
+"P2", part 1 of 3:                         0x400
+  CSTACK                      0x20000000   0x400  <Block>
+    CSTACK           uninit   0x20000000   0x400  <Block tail>
+                            - 0x20000400   0x400
+
+"P2", part 2 of 3:                         0x431
+  P2 s0                       0x20000400   0x431  <Init block>
+    .data            inited   0x20000400   0x400  base64.o [1]
+    .data            inited   0x20000800    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x20000810     0x8  main.o [1]
+    .data            inited   0x20000818     0x4  main.o [1]
+    .data            inited   0x2000081c     0x4  main.o [1]
+    .data            inited   0x20000820     0x4  main.o [1]
+    .data            inited   0x20000824     0x4  main.o [1]
+    .data            inited   0x20000828     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x2000082c     0x2  dns.o [1]
+    .data            inited   0x2000082e     0x2  smtp.o [1]
+    .data            inited   0x20000830     0x1  main.o [1]
+                            - 0x20000831   0x431
+
+"P2", part 3 of 3:                        0x1e78
+  .bss               zero     0x20000834   0x800  loopback.o [1]
+  .bss               zero     0x20001034   0x800  main.o [1]
+  .bss               zero     0x20001834   0x800  main.o [1]
+  .bss               zero     0x20002034   0x200  dns.o [1]
+  .bss               zero     0x20002234   0x100  hyperterminal.o [1]
+  .bss               zero     0x20002334   0x100  hyperterminal.o [1]
+  .bss               zero     0x20002434   0x100  smtp.o [1]
+  .bss               zero     0x20002534    0x20  hyperterminal.o [1]
+  .bss               zero     0x20002554    0x20  hyperterminal.o [1]
+  .bss               zero     0x20002574    0x20  hyperterminal.o [1]
+  .bss               zero     0x20002594    0x20  hyperterminal.o [1]
+  .bss               zero     0x200025b4    0x18  hyperterminal.o [1]
+  .bss               zero     0x200025cc    0x10  sockutil.o [1]
+  .bss               zero     0x200025dc    0x10  w5200.o [1]
+  .bss               zero     0x200025ec    0x10  w5200.o [1]
+  .bss               zero     0x200025fc    0x10  w5200.o [1]
+  .bss               zero     0x2000260c    0x10  w5200.o [1]
+  .bss               zero     0x2000261c    0x10  w5200.o [1]
+  .bss               zero     0x2000262c    0x10  w5200.o [1]
+  .bss               zero     0x2000263c     0x8  dhcp.o [1]
+  .bss               zero     0x20002644     0x8  w5200.o [1]
+  .bss               zero     0x2000264c     0x4  dhcp.o [1]
+  .bss               zero     0x20002650     0x4  dhcp.o [1]
+  .bss               zero     0x20002654     0x4  dhcp.o [1]
+  .bss               zero     0x20002658     0x4  dhcp.o [1]
+  .bss               zero     0x2000265c     0x4  dhcp.o [1]
+  .bss               zero     0x20002660     0x4  dhcp.o [1]
+  .bss               zero     0x20002664     0x4  dhcp.o [1]
+  .bss               zero     0x20002668     0x4  dhcp.o [1]
+  .bss               zero     0x2000266c     0x4  dhcp.o [1]
+  .bss               zero     0x20002670     0x4  dhcp.o [1]
+  .bss               zero     0x20002674     0x4  dhcp.o [1]
+  .bss               zero     0x20002678     0x4  dhcp.o [1]
+  .bss               zero     0x2000267c     0x4  dhcp.o [1]
+  .bss               zero     0x20002680     0x4  dhcp.o [1]
+  .bss               zero     0x20002684     0x4  hyperterminal.o [1]
+  .bss               zero     0x20002688     0x4  hyperterminal.o [1]
+  .bss               zero     0x2000268c     0x4  main.o [1]
+  .bss               zero     0x20002690     0x4  socket.o [1]
+  .bss               zero     0x20002694     0x4  socket.o [1]
+  .bss               zero     0x20002698     0x4  sockutil.o [1]
+  .bss               zero     0x2000269c     0x4  iarwstd.o [5]
+  .bss               zero     0x200026a0     0x2  socket.o [1]
+  .bss               zero     0x200026a2     0x1  dhcp.o [1]
+  .bss               zero     0x200026a3     0x1  dhcp.o [1]
+  .bss               zero     0x200026a4     0x1  dhcp.o [1]
+  .bss               zero     0x200026a5     0x1  dhcp.o [1]
+  .bss               zero     0x200026a6     0x1  hyperterminal.o [1]
+  .bss               zero     0x200026a7     0x1  hyperterminal.o [1]
+  .bss               zero     0x200026a8     0x1  socket.o [1]
+                            - 0x200026a9  0x1e75
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init2)
+    1 destination range, total size 0x1e75:
+          0x20000834  0x1e75
+
+Copy/packbits (__iar_packbits_init2)
+    1 source range, total size 0x142 (30% of destination):
+          0x0000763a   0x142
+    1 destination range, total size 0x431:
+          0x20000400   0x431
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Documents and Settings\Young-Wan\My Documents\W5200_newAPI\Application Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj: [1]
+    SPI1.o                      176
+    base64.o                    352      371    1 024
+    dhcp.o                    4 154      968       68
+    dns.o                       428        1      514
+    dns_parse.o                 698
+    hyperterminal.o           1 644    1 292      674
+    loopback.o                  320      140    2 048
+    main.o                    1 230      444    4 125
+    misc.o                      152
+    smtp.o                      752      300      258
+    socket.o                  4 482       16       11
+    sockutil.o                  702       44       20
+    startup_stm32f10x_md.o      460
+    stm32f10x_exti.o            220
+    stm32f10x_flash.o            56
+    stm32f10x_gpio.o            300
+    stm32f10x_it.o               56
+    stm32f10x_rcc.o             728        6       20
+    stm32f10x_spi.o             116
+    stm32f10x_tim.o             300
+    stm32f10x_usart.o           258
+    system_stm32f10x.o          344
+    util.o                      348
+    w5200.o                   1 518               104
+    -------------------------------------------------
+    Total:                   19 794    3 582    8 866
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tl_in.a: [3]
+    div.o                        14
+    exit.o                        6
+    low_level_init.o              4
+    printf.o                     32
+    sprintf.o                    48
+    strncmp.o                    42
+    xdnorm.o                    198
+    xdscale.o                   264
+    xprintffull.o             3 266        8
+    xprout.o                     22
+    xsprout.o                    10
+    -------------------------------------------------
+    Total:                    3 906        8
+
+rt7M_tl.a: [4]
+    ABImemclr4.o                  6
+    ABImemcpy.o                 112
+    ABImemset.o                 102
+    ABImemset48.o                56
+    DblAdd.o                    230
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblSub.o                    382
+    DblToI32.o                   86
+    I32ToDbl.o                   46
+    I64DivMod.o                 302
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      24
+    data_init2.o                 32
+    memchr.o                     88
+    memcmp.o                     98
+    packbits_init2.o            150
+    strchr.o                     22
+    strcmp.o                     66
+    strcpy.o                     68
+    strlen.o                     54
+    strncpy.o                   108
+    zero_init2.o                 26
+    -------------------------------------------------
+    Total:                    3 162
+
+shb_l.a: [5]
+    exit.o                       20
+    iarwstd.o                    28                 4
+    -------------------------------------------------
+    Total:                       48                 4
+
+    Gaps                         32       12
+    Linker created                        44    1 024
+-----------------------------------------------------
+    Grand Total:             26 942    3 646    9 894
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+ADC1_2_IRQHandler       0x000075d3         Code  Wk  startup_stm32f10x_md.o [1]
+ADCPrescTable           0x20000828    0x4  Data  Lc  stm32f10x_rcc.o [1]
+APBAHBPrescTable        0x20000800   0x10  Data  Lc  stm32f10x_rcc.o [1]
+ATOI                    0x00004733   0x28  Code  Gb  sockutil.o [1]
+BusFault_Handler        0x000067c7    0x2  Code  Gb  stm32f10x_it.o [1]
+C2D                     0x000046ff   0x34  Code  Gb  sockutil.o [1]
+CAN1_RX1_IRQHandler     0x000075df         Code  Wk  startup_stm32f10x_md.o [1]
+CAN1_SCE_IRQHandler     0x000075e3         Code  Wk  startup_stm32f10x_md.o [1]
+CSTACK$$Base            0x20000000          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000400          --   Gb  - Linker created -
+ClearSubnet             0x000000f5   0x10  Code  Gb  socket.o [1]
+DHCPC_SOCK              0x200026a5    0x1  Data  Lc  dhcp.o [1]
+DHCPEnable              0x200026a8    0x1  Data  Lc  socket.o [1]
+DHCP_REAL_SIP           0x20002660    0x4  Data  Lc  dhcp.o [1]
+DHCP_SIP                0x2000265c    0x4  Data  Lc  dhcp.o [1]
+DHCP_XID                0x20002674    0x4  Data  Lc  dhcp.o [1]
+DHCP_timeout            0x200026a4    0x1  Data  Lc  dhcp.o [1]
+DMA1_Channel1_IRQHandler
+                        0x000075b7         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel2_IRQHandler
+                        0x000075bb         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel3_IRQHandler
+                        0x000075bf         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel4_IRQHandler
+                        0x000075c3         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel5_IRQHandler
+                        0x000075c7         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel6_IRQHandler
+                        0x000075cb         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel7_IRQHandler
+                        0x000075cf         Code  Wk  startup_stm32f10x_md.o [1]
+DNSServerIP             0x20000824    0x4  Data  Gb  main.o [1]
+DNSServerIP             0x20002694    0x4  Data  Lc  socket.o [1]
+DebugMon_Handler        0x000067cd    0x2  Code  Gb  stm32f10x_it.o [1]
+DecodeMimeBase64        0x20000400  0x400  Data  Lc  base64.o [1]
+Delay_ms                0x0000552f   0x2c  Code  Gb  util.o [1]
+Delay_us                0x00005509   0x26  Code  Gb  util.o [1]
+EXTI0_IRQHandler        0x000075a3         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI15_10_IRQHandler    0x0000762b         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI1_IRQHandler        0x000075a7         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI2_IRQHandler        0x000075ab         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI3_IRQHandler        0x000075af         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI4_IRQHandler        0x000075b3         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI9_5_IRQHandler      0x000075e7         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI_DeInit             0x00005ebb   0x20  Code  Gb  stm32f10x_exti.o [1]
+EXTI_IMR_EMR_enable     0x00005ea1   0x1a  Code  Gb  stm32f10x_exti.o [1]
+EXTI_Init               0x00005edb   0x88  Code  Gb  stm32f10x_exti.o [1]
+Enable_DHCP             0x20000830    0x1  Data  Gb  main.o [1]
+FLASH_IRQHandler        0x0000759b         Code  Wk  startup_stm32f10x_md.o [1]
+FLASH_PrefetchBufferCmd
+                        0x00006769   0x1c  Code  Gb  stm32f10x_flash.o [1]
+FLASH_SetLatency        0x00006751   0x18  Code  Gb  stm32f10x_flash.o [1]
+GET_DNS_IP              0x20002654    0x4  Data  Gb  dhcp.o [1]
+GET_GW_IP               0x20002650    0x4  Data  Gb  dhcp.o [1]
+GET_SIP                 0x20002658    0x4  Data  Gb  dhcp.o [1]
+GET_SN_MASK             0x2000264c    0x4  Data  Gb  dhcp.o [1]
+GPIO_Configuration      0x00003ddb  0x104  Code  Gb  main.o [1]
+GPIO_EXTILineConfig     0x00005a2d   0x50  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_Init               0x00005955   0xcc  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x00005a27    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x00005a21    0x6  Code  Gb  stm32f10x_gpio.o [1]
+Gateway                 0x2000081c    0x4  Data  Gb  main.o [1]
+GetInputString          0x000046a9   0x56  Code  Gb  sockutil.o [1]
+GetKey                  0x00004661   0x18  Code  Gb  sockutil.o [1]
+GetNetInfo              0x000004dd   0x62  Code  Gb  socket.o [1]
+GetSocketRxRecvBufferSize
+                        0x000005d9    0xa  Code  Gb  socket.o [1]
+GetSocketTxFreeBufferSize
+                        0x000005cf    0xa  Code  Gb  socket.o [1]
+GetTCPSocketStatus      0x0000053f   0x90  Code  Gb  socket.o [1]
+HardFault_Handler       0x000067c3    0x2  Code  Gb  stm32f10x_it.o [1]
+I2C1_ER_IRQHandler      0x0000760b         Code  Wk  startup_stm32f10x_md.o [1]
+I2C1_EV_IRQHandler      0x00007607         Code  Wk  startup_stm32f10x_md.o [1]
+I2C2_ER_IRQHandler      0x00007613         Code  Wk  startup_stm32f10x_md.o [1]
+I2C2_EV_IRQHandler      0x0000760f         Code  Wk  startup_stm32f10x_md.o [1]
+IINCHIP_CSoff           0x00003631    0xa  Code  Gb  w5200.o [1]
+IINCHIP_CSon            0x0000363b    0xa  Code  Gb  w5200.o [1]
+IINCHIP_READ            0x00003687   0x38  Code  Gb  w5200.o [1]
+IINCHIP_READ_BLOCK      0x00003723   0x58  Code  Gb  w5200.o [1]
+IINCHIP_SpiSendData     0x00003645    0xa  Code  Gb  w5200.o [1]
+IINCHIP_WRITE           0x0000364f   0x38  Code  Gb  w5200.o [1]
+IINCHIP_WRITE_BLOCK     0x000036bf   0x64  Code  Gb  w5200.o [1]
+IP                      0x20000818    0x4  Data  Gb  main.o [1]
+LED3_onoff              0x00005455   0x1e  Code  Gb  util.o [1]
+LED4_onoff              0x00005473   0x1e  Code  Gb  util.o [1]
+MSG_ID                  0x2000082c    0x2  Data  Gb  dns.o [1]
+Mac                     0x20000810    0x8  Data  Gb  main.o [1]
+Main_Menu               0x00002f4d  0x66c  Code  Gb  hyperterminal.o [1]
+MakeMIME                0x00004079   0x14  Code  Gb  smtp.o [1]
+MemManage_Handler       0x000067c5    0x2  Code  Gb  stm32f10x_it.o [1]
+MimeBase64              0x000065d8   0x40  Data  Lc  base64.o [1]
+NMI_Handler             0x000067c1    0x2  Code  Gb  stm32f10x_it.o [1]
+NVIC_Configuration      0x00003fc9   0x64  Code  Gb  main.o [1]
+NVIC_Init               0x000060ff   0x66  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x000060f5    0xa  Code  Gb  misc.o [1]
+NVIC_SetVectorTable     0x00006165    0xc  Code  Gb  misc.o [1]
+OLD_SIP                 0x20002664    0x4  Data  Lc  dhcp.o [1]
+PVD_IRQHandler          0x0000758f         Code  Wk  startup_stm32f10x_md.o [1]
+PendSV_Handler          0x000067cf    0x2  Code  Gb  stm32f10x_it.o [1]
+RBUFBASEADDRESS         0x2000262c   0x10  Data  Gb  w5200.o [1]
+RCC_APB1PeriphClockCmd  0x000045a5   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x00004585   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_Configuration       0x00003edf   0x76  Code  Gb  main.o [1]
+RCC_DeInit              0x00004369   0x5c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x000044c5   0xc0  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetFlagStatus       0x000045c5   0x44  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetSYSCLKSource     0x0000447d    0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HCLKConfig          0x00004487   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HSEConfig           0x000043c5   0x4c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_IRQHandler          0x0000759f         Code  Wk  startup_stm32f10x_md.o [1]
+RCC_PCLK1Config         0x0000449b   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK2Config         0x000044af   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLCmd              0x00004461    0x8  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLConfig           0x0000444b   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_SYSCLKConfig        0x00004469   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_WaitForHSEStartUp   0x00004411   0x3a  Code  Gb  stm32f10x_rcc.o [1]
+RMASK                   0x200025ec   0x10  Data  Gb  w5200.o [1]
+RSIZE                   0x2000260c   0x10  Data  Gb  w5200.o [1]
+RTCAlarm_IRQHandler     0x0000762f         Code  Wk  startup_stm32f10x_md.o [1]
+RTC_IRQHandler          0x00007597         Code  Wk  startup_stm32f10x_md.o [1]
+RX_BUF                  0x20001834  0x800  Data  Gb  main.o [1]
+Region$$Table$$Base     0x00006c64          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00006c90          --   Gb  - Linker created -
+Reset_Handler           0x000073fd         Code  Wk  startup_stm32f10x_md.o [1]
+Reset_W5200             0x00005431   0x24  Code  Gb  util.o [1]
+SBUFBASEADDRESS         0x2000261c   0x10  Data  Gb  w5200.o [1]
+SMASK                   0x200025dc   0x10  Data  Gb  w5200.o [1]
+SPI1_IRQHandler         0x00007617         Code  Wk  startup_stm32f10x_md.o [1]
+SPI1_SendByte           0x000060b9   0x32  Code  Gb  SPI1.o [1]
+SPI2_IRQHandler         0x0000761b         Code  Wk  startup_stm32f10x_md.o [1]
+SPI_Cmd                 0x00006263   0x1a  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_GetFlagStatus   0x00006285   0x14  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_ReceiveData     0x00006281    0x4  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_SendData        0x0000627d    0x4  Code  Gb  stm32f10x_spi.o [1]
+SPI_Init                0x00006225   0x3e  Code  Gb  stm32f10x_spi.o [1]
+SRC_MAC_ADDR            0x2000263c    0x8  Data  Gb  dhcp.o [1]
+SSIZE                   0x200025fc   0x10  Data  Gb  w5200.o [1]
+STRTOK                  0x0000479d   0x56  Code  Gb  sockutil.o [1]
+SVC_Handler             0x000067cb    0x2  Code  Gb  stm32f10x_it.o [1]
+SerialKeyPressed        0x00004641   0x20  Code  Gb  sockutil.o [1]
+SerialPutChar           0x00004679   0x1a  Code  Gb  sockutil.o [1]
+SerialPutString         0x00004693   0x16  Code  Gb  sockutil.o [1]
+SetNetInfo              0x000003f3   0xea  Code  Gb  socket.o [1]
+SetSubnet               0x000000ed    0x8  Code  Gb  socket.o [1]
+SetSysClock             0x000055df    0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72         0x000055e7   0xe0  Code  Lc  system_stm32f10x.o [1]
+Subnet                  0x20000820    0x4  Data  Gb  main.o [1]
+Subnet                  0x20002690    0x4  Data  Lc  socket.o [1]
+SysTick_Handler         0x000067d1    0x2  Code  Gb  stm32f10x_it.o [1]
+SystemInit              0x0000558d   0x52  Code  Gb  system_stm32f10x.o [1]
+TAMPER_IRQHandler       0x00007593         Code  Wk  startup_stm32f10x_md.o [1]
+TCPClientOpen           0x00000709  0x242  Code  Gb  socket.o [1]
+TCPClose                0x00000a49   0xa6  Code  Gb  socket.o [1]
+TCPReSend               0x00000ce9  0x16e  Code  Gb  socket.o [1]
+TCPRecv                 0x00000e57   0xe6  Code  Gb  socket.o [1]
+TCPSend                 0x00000b3b  0x1ae  Code  Gb  socket.o [1]
+TCPServerOpen           0x000005e3  0x126  Code  Gb  socket.o [1]
+TIM1_BRK_IRQHandler     0x000075eb         Code  Wk  startup_stm32f10x_md.o [1]
+TIM1_CC_IRQHandler      0x000075f7         Code  Wk  startup_stm32f10x_md.o [1]
+TIM1_TRG_COM_IRQHandler
+                        0x000075f3         Code  Wk  startup_stm32f10x_md.o [1]
+TIM1_UP_IRQHandler      0x000075ef         Code  Wk  startup_stm32f10x_md.o [1]
+TIM2_IRQHandler         0x000067d3   0x20  Code  Gb  stm32f10x_it.o [1]
+TIM3_IRQHandler         0x000067f3    0x2  Code  Gb  stm32f10x_it.o [1]
+TIM4_IRQHandler         0x00007603         Code  Wk  startup_stm32f10x_md.o [1]
+TIM_ClearITPendingBit   0x00005b7b    0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x00005b15   0x1a  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetITStatus         0x00005b4d   0x2e  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x00005b2f   0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_PrescalerConfig     0x00005b47    0x6  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x00005a81   0x94  Code  Gb  stm32f10x_tim.o [1]
+TX_BUF                  0x20001034  0x800  Data  Gb  main.o [1]
+Timer2_Counter          0x2000268c    0x4  Data  Gb  main.o [1]
+Timer2_ISR              0x00003d7d   0x18  Code  Gb  main.o [1]
+Timer_Configuration     0x0000402d   0x4a  Code  Gb  main.o [1]
+UDPClose                0x00000aef   0x4c  Code  Gb  socket.o [1]
+UDPOpen                 0x0000094b   0xdc  Code  Gb  socket.o [1]
+UDPRecv                 0x00001145  0x12a  Code  Gb  socket.o [1]
+UDPSend                 0x00000f3d  0x1f6  Code  Gb  socket.o [1]
+USART1_IRQHandler       0x000067f5    0x2  Code  Gb  stm32f10x_it.o [1]
+USART1_Init             0x00005491   0x3c  Code  Gb  util.o [1]
+USART2_IRQHandler       0x000067f7    0x2  Code  Gb  stm32f10x_it.o [1]
+USART2_Init             0x000054cd   0x3c  Code  Gb  util.o [1]
+USART3_IRQHandler       0x00007627         Code  Wk  startup_stm32f10x_md.o [1]
+USART_Cmd               0x00005d79   0x1a  Code  Gb  stm32f10x_usart.o [1]
+USART_GetFlagStatus     0x00005d9b   0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x00005cb5   0xbe  Code  Gb  stm32f10x_usart.o [1]
+USART_SendData          0x00005d93    0x8  Code  Gb  stm32f10x_usart.o [1]
+USBWakeUp_IRQHandler    0x00007633         Code  Wk  startup_stm32f10x_md.o [1]
+USB_HP_CAN1_TX_IRQHandler
+                        0x000075d7         Code  Wk  startup_stm32f10x_md.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                        0x000075db         Code  Wk  startup_stm32f10x_md.o [1]
+UsageFault_Handler      0x000067c9    0x2  Code  Gb  stm32f10x_it.o [1]
+ValidATOI               0x0000475b   0x42  Code  Gb  sockutil.o [1]
+VerifyIPAddress         0x000047f3   0x74  Code  Gb  sockutil.o [1]
+WIZ_CS                  0x00006097   0x22  Code  Gb  SPI1.o [1]
+WIZ_Config              0x00003ba9  0x1d4  Code  Gb  main.o [1]
+WIZ_SPI_Init            0x00006045   0x52  Code  Gb  SPI1.o [1]
+WWDG_IRQHandler         0x0000758b         Code  Wk  startup_stm32f10x_md.o [1]
+_GenldDefault           0x00002cb1  0x24e  Code  Lc  xprintffull.o [3]
+_LdtobDefault           0x0000289d  0x40e  Code  Lc  xprintffull.o [3]
+_LitobDefault           0x0000278f  0x10e  Code  Lc  xprintffull.o [3]
+_Printf                 0x00002289  0x506  Code  Gb  xprintffull.o [3]
+_Prout                  0x000070d3   0x16  Code  Gb  xprout.o [3]
+_PutcharsDefault        0x00002f19   0x32  Code  Lc  xprintffull.o [3]
+_SProut                 0x000074e7    0xa  Code  Gb  xsprout.o [3]
+__aeabi_cdcmple         0x0000698d         Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x000069bd         Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x000064f9         Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x00006525         Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x00005db9         Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x00004bb9         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x00004fad         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x00005151         Code  Gb  DblSub.o [4]
+__aeabi_i2d             0x000069ed         Code  Gb  I32ToDbl.o [4]
+__aeabi_ldiv0           0x00007565         Code  Gb  I64DivZer.o [4]
+__aeabi_ldivmod         0x00005825         Code  Gb  I64DivMod.o [4]
+__aeabi_memclr4         0x00007559         Code  Gb  ABImemclr4.o [4]
+__aeabi_memcpy          0x00006299         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4         0x000062b3         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8         0x000062b3         Code  Gb  ABImemcpy.o [4]
+__aeabi_memset          0x00006375         Code  Gb  ABImemset.o [4]
+__aeabi_memset4         0x00006789         Code  Gb  ABImemset48.o [4]
+__aeabi_memset8         0x00006789         Code  Gb  ABImemset48.o [4]
+__aeabi_ui2d            0x00006a01         Code  Gb  I32ToDbl.o [4]
+__aeabi_uldivmod        0x00005839         Code  Gb  I64DivMod.o [4]
+__exit                  0x00007355   0x14  Code  Gb  exit.o [5]
+__iar_Dnorm             0x00005f7d   0xc6  Code  Gb  xdnorm.o [3]
+__iar_Dscale            0x00005bad  0x108  Code  Gb  xdscale.o [3]
+__iar_Memchr            0x000064a1         Code  Gb  memchr.o [4]
+__iar_Memset            0x00006375         Code  Gb  ABImemset.o [4]
+__iar_Memset4_word      0x00006791         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word      0x00006791         Code  Gb  ABImemset48.o [4]
+__iar_Memset_word       0x0000637d         Code  Gb  ABImemset.o [4]
+__iar_Strchr            0x000070bd         Code  Gb  strchr.o [4]
+__iar_d2uiz             0x0000652f         Code  Gb  DblToI32.o [4]
+__iar_dadd              0x00005dcb         Code  Gb  DblAdd.o [4]
+__iar_data_init2        0x00006db1   0x20  Code  Gb  data_init2.o [4]
+__iar_dsub              0x00005163         Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x00005175         Code  Gb  DblSub.o [4]
+__iar_packbits_init2    0x0000618d   0x96  Code  Gb  packbits_init2.o [4]
+__iar_program_start     0x000070a5         Code  Gb  cmain.o [4]
+__iar_sh_stdout_close   0x00006f05   0x16  Code  Gb  iarwstd.o [5]
+__iar_sh_stdout_handle  0x2000269c    0x4  Data  Lc  iarwstd.o [5]
+__iar_strcmp            0x00006595         Code  Gb  strcmp.o [4]
+__iar_ui2d              0x00006a03         Code  Gb  I32ToDbl.o [4]
+__iar_zero_init2        0x00006f21   0x1a  Code  Gb  zero_init2.o [4]
+__low_level_init        0x00007637    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000         Data  Gb  startup_stm32f10x_md.o [1]
+_exit                   0x000074dd         Code  Gb  cexit.o [4]
+_main                   0x000070b7         Code  Gb  cmain.o [4]
+base64_decode           0x000052d1   0x76  Code  Gb  base64.o [1]
+base64_encode           0x00005347   0xe0  Code  Gb  base64.o [1]
+buf                     0x20002434  0x100  Data  Gb  smtp.o [1]
+check_DHCP_Timeout      0x00001f21   0x94  Code  Lc  dhcp.o [1]
+check_DHCP_state        0x00001d43  0x1c0  Code  Gb  dhcp.o [1]
+client_port             0x2000082e    0x2  Data  Gb  smtp.o [1]
+data_buf                0x20000834  0x800  Data  Gb  loopback.o [1]
+dhcp_ip_conflict        0x20002680    0x4  Data  Gb  dhcp.o [1]
+dhcp_ip_update          0x2000267c    0x4  Data  Gb  dhcp.o [1]
+dhcp_state              0x200026a2    0x1  Data  Lc  dhcp.o [1]
+dhcp_time               0x2000266c    0x4  Data  Lc  dhcp.o [1]
+div                     0x0000741b    0xe  Code  Gb  div.o [3]
+dns_answer              0x000049d3  0x10e  Code  Gb  dns_parse.o [1]
+dns_buf                 0x20002034  0x200  Data  Gb  dns.o [1]
+dns_makequery           0x00004e0f   0xec  Code  Gb  dns.o [1]
+dns_query               0x00004efb   0xaa  Code  Gb  dns.o [1]
+dns_question            0x000049a7   0x2c  Code  Gb  dns_parse.o [1]
+exit                    0x0000755f    0x6  Code  Gb  exit.o [3]
+get16                   0x000048ff   0x10  Code  Gb  dns_parse.o [1]
+getGAR                  0x00003823   0x26  Code  Gb  w5200.o [1]
+getIINCHIP_RxBASE       0x000035ff    0xa  Code  Gb  w5200.o [1]
+getIINCHIP_RxMASK       0x000035eb    0xa  Code  Gb  w5200.o [1]
+getIINCHIP_RxMAX        0x000035d7    0xa  Code  Gb  w5200.o [1]
+getIINCHIP_TxBASE       0x00003609    0xa  Code  Gb  w5200.o [1]
+getIINCHIP_TxMASK       0x000035f5    0xa  Code  Gb  w5200.o [1]
+getIINCHIP_TxMAX        0x000035e1    0xa  Code  Gb  w5200.o [1]
+getIP_DHCPS             0x0000204d   0x42  Code  Gb  dhcp.o [1]
+getSHAR                 0x00003849   0x36  Code  Gb  w5200.o [1]
+getSIPR                 0x0000387f   0x26  Code  Gb  w5200.o [1]
+getSn_RX_RSR            0x00003947   0x7c  Code  Gb  w5200.o [1]
+getSn_SR                0x000038b3   0x18  Code  Gb  w5200.o [1]
+getSn_TX_FSR            0x000038cb   0x7c  Code  Gb  w5200.o [1]
+htonl                   0x000048ef    0x8  Code  Gb  sockutil.o [1]
+htons                   0x000048e5    0xa  Code  Gb  sockutil.o [1]
+incr_windowfull_retry_cnt
+                        0x000035b9   0x14  Code  Gb  w5200.o [1]
+inet_ntoa               0x00004867   0x2a  Code  Gb  sockutil.o [1]
+init_dhcp_client        0x00002095   0x2e  Code  Gb  dhcp.o [1]
+init_dhcpc_ch           0x000020dd   0xe6  Code  Gb  dhcp.o [1]
+init_windowfull_retry_cnt
+                        0x000035cd    0xa  Code  Gb  w5200.o [1]
+lease_time              0x20002668    0x4  Data  Lc  dhcp.o [1]
+local_port              0x200026a0    0x2  Data  Lc  socket.o [1]
+loopback_tcps           0x000056e5   0xa2  Code  Gb  loopback.o [1]
+loopback_udp            0x00005787   0x82  Code  Gb  loopback.o [1]
+main                    0x00003d95   0x46  Code  Gb  main.o [1]
+memchr                  0x000064a1         Code  Gb  memchr.o [4]
+memcmp                  0x000063dd         Code  Gb  memcmp.o [4]
+memcpy                  0x0000740d    0xe  Code  Gb  dhcp.o [1]
+memset                  0x00007369   0x14  Code  Gb  dhcp.o [1]
+next_dhcp_time          0x20002670    0x4  Data  Lc  dhcp.o [1]
+ntohl                   0x000048f7    0x8  Code  Gb  sockutil.o [1]
+pRIPMSG                 0x20002678    0x4  Data  Lc  dhcp.o [1]
+parseDHCPMSG            0x00001b53  0x1f0  Code  Lc  dhcp.o [1]
+parseMSG                0x00004ae1   0xd8  Code  Gb  dns_parse.o [1]
+parse_name              0x0000490f   0x98  Code  Gb  dns_parse.o [1]
+printf                  0x00006d91   0x20  Code  Gb  printf.o [3]
+proc_ip_conflict        0x000020c9    0xa  Code  Lc  dhcp.o [1]
+put16                   0x00004e01    0xe  Code  Gb  dns.o [1]
+putchar                 0x0000555b   0x20  Code  Gb  util.o [1]
+recv_data_processing    0x00003ab5   0xf2  Code  Gb  w5200.o [1]
+reset_DHCP_time         0x00001271   0x20  Code  Lc  dhcp.o [1]
+retry_count             0x200026a3    0x1  Data  Lc  dhcp.o [1]
+send_DHCP_DISCOVER      0x00001291  0x396  Code  Lc  dhcp.o [1]
+send_DHCP_REQUEST       0x00001627  0x52c  Code  Lc  dhcp.o [1]
+send_data_processing    0x000039c3   0xf2  Code  Gb  w5200.o [1]
+send_mail               0x000040cf  0x232  Code  Gb  smtp.o [1]
+send_receive            0x0000408d   0x42  Code  Gb  smtp.o [1]
+setGAR                  0x0000377b   0x26  Code  Gb  w5200.o [1]
+setMR                   0x000038a5    0xe  Code  Gb  w5200.o [1]
+setSHAR                 0x000037c7   0x36  Code  Gb  w5200.o [1]
+setSIPR                 0x000037fd   0x26  Code  Gb  w5200.o [1]
+setSUBR                 0x000037a1   0x26  Code  Gb  w5200.o [1]
+set_DHCP_network        0x00001fb9   0x94  Code  Lc  dhcp.o [1]
+sprintf                 0x0000695d   0x30  Code  Gb  sprintf.o [3]
+strchr                  0x000070bd         Code  Gb  strchr.o [4]
+strcmp                  0x00006595         Code  Gb  strcmp.o [4]
+strcpy                  0x00006551         Code  Gb  strcpy.o [4]
+strlen                  0x000067f9         Code  Gb  strlen.o [4]
+strncmp                 0x00006b25   0x2a  Code  Gb  strncmp.o [3]
+strncpy                 0x00006309         Code  Gb  strncpy.o [4]
+swapl                   0x000048c7   0x1e  Code  Gb  sockutil.o [1]
+swaps                   0x000048b5   0x12  Code  Gb  sockutil.o [1]
+windowfull_retry_cnt    0x20002644    0x8  Data  Gb  w5200.o [1]
+wizInit                 0x00000105   0x30  Code  Gb  socket.o [1]
+wizMemInit              0x0000013f  0x2b4  Code  Gb  socket.o [1]
+wizSWReset              0x00000135    0xa  Code  Gb  socket.o [1]
+
+
+[1] = C:\Documents and Settings\Young-Wan\My Documents\W5200_newAPI\Application Note\W5200E01-M3_SMTP_with_DHCP\Work\App\Debug\Obj
+[2] = command line
+[3] = dl7M_tl_in.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  26 942 bytes of readonly  code memory
+   3 646 bytes of readonly  data memory
+   9 894 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>W5200EVB_App/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>242</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>SourceBrowser</Factory></Window></Windows></PreferedWindows></Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>916</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+    <SourceBrowser><PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Workspace</Factory></Window></Windows></PreferedWindows></SourceBrowser><Debug-Log><ColumnWidth0>19</ColumnWidth0><ColumnWidth1>1160</ColumnWidth1></Debug-Log><Find-in-Files><ColumnWidth0>946</ColumnWidth0><ColumnWidth1>59</ColumnWidth1><ColumnWidth2>717</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18388-8490</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-18872-28420</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-18511-26988</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>W5200EVB_App</ExpandedNode><ExpandedNode>W5200EVB_App/Output</ExpandedNode><ExpandedNode>W5200EVB_App/USER</ExpandedNode><ExpandedNode>W5200EVB_App/USER/APPs</ExpandedNode><ExpandedNode>W5200EVB_App/USER/W5200</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\main.c</Filename><XPos>0</XPos><YPos>122</YPos><SelStart>3861</SelStart><SelEnd>3861</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\W5200\socket.c</Filename><XPos>0</XPos><YPos>472</YPos><SelStart>12220</SelStart><SelEnd>12220</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\W5200\socket.h</Filename><XPos>0</XPos><YPos>24</YPos><SelStart>864</SelStart><SelEnd>864</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\http_client.c</Filename><XPos>0</XPos><YPos>27</YPos><SelStart>2221</SelStart><SelEnd>2229</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\dns.c</Filename><XPos>0</XPos><YPos>161</YPos><SelStart>4271</SelStart><SelEnd>4271</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\sockutil.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\dns_parse.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>653</SelStart><SelEnd>653</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\util.c</Filename><XPos>0</XPos><YPos>19</YPos><SelStart>982</SelStart><SelEnd>993</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\util.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>775</SelStart><SelEnd>775</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug\List\W5200EVB_App.map</Filename><XPos>0</XPos><YPos>328</YPos><SelStart>22329</SelStart><SelEnd>22329</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00b1a0b8><key>iaridepm.enu1</key></Toolbar-00b1a0b8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>572</Bottom><Right>316</Right><x>-2</x><y>-2</y><xscreen>549</xscreen><yscreen>192</yscreen><sizeHorzCX>343125</sizeHorzCX><sizeHorzCY>241814</sizeHorzCY><sizeVertCX>198750</sizeVertCX><sizeVertCY>722922</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>177</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>179</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>225441</sizeHorzCY><sizeVertCX>343125</sizeVertCX><sizeVertCY>241814</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

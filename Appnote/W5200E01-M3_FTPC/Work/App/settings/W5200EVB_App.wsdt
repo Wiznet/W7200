@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>W5200EVB_App/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>400</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>916</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>454</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Find-in-Files>
+    <TerminalIO/></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-3020-16074</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>W5200EVB_App</ExpandedNode><ExpandedNode>W5200EVB_App/Output</ExpandedNode><ExpandedNode>W5200EVB_App/USER</ExpandedNode><ExpandedNode>W5200EVB_App/USER/APPs</ExpandedNode><ExpandedNode>W5200EVB_App/USER/W5200</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-30017-19457</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-17388-22559</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\main.c</Filename><XPos>0</XPos><YPos>28</YPos><SelStart>1294</SelStart><SelEnd>1294</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\W5200\socket.h</Filename><XPos>0</XPos><YPos>51</YPos><SelStart>1074</SelStart><SelEnd>1089</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\W5200\socket.c</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>1109</SelStart><SelEnd>1109</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\APPs\ftp.h</Filename><XPos>0</XPos><YPos>63</YPos><SelStart>3917</SelStart><SelEnd>3924</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\ftp.c</Filename><XPos>0</XPos><YPos>86</YPos><SelStart>2262</SelStart><SelEnd>2262</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug\List\W5200EVB_App.map</Filename><XPos>0</XPos><YPos>307</YPos><SelStart>20172</SelStart><SelEnd>21358</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\config.h</Filename><XPos>0</XPos><YPos>56</YPos><SelStart>1679</SelStart><SelEnd>1679</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\hyperterminal.c</Filename><XPos>0</XPos><YPos>255</YPos><SelStart>8309</SelStart><SelEnd>8309</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\APPs\hyperterminal.h</Filename><XPos>0</XPos><YPos>17</YPos><SelStart>1612</SelStart><SelEnd>1612</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00b1a0c8><key>iaridepm.enu1</key></Toolbar-00b1a0c8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>664</Bottom><Right>474</Right><x>-2</x><y>-2</y><xscreen>898</xscreen><yscreen>39</yscreen><sizeHorzCX>467708</sizeHorzCX><sizeHorzCY>40041</sizeHorzCY><sizeVertCX>247917</sizeVertCX><sizeVertCY>683778</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>265</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>267</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>274127</sizeHorzCY><sizeVertCX>467708</sizeVertCX><sizeVertCY>40041</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

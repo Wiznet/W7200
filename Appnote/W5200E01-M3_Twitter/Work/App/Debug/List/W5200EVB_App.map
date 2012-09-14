@@ -1,0 +1,762 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V5.41.0.51741/W32 for ARM              04/Sep/2012  17:34:32 #
+# Copyright (C) 2007-2009 IAR Systems AB.                                     #
+#                                                                             #
+#    Output file  =  C:\Documents and Settings\Young-Wan\My                   #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Exe\W5200EVB_App #
+#                    .out                                                     #
+#    Map file     =  C:\Documents and Settings\Young-Wan\My                   #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\List\W5200EVB_Ap #
+#                    p.map                                                    #
+#    Command line =  "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\SPI1.o"      #
+#                    "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\core_cm3.o"  #
+#                    "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\dns.o"       #
+#                    "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\dns_parse.o" #
+#                     "C:\Documents and Settings\Young-Wan\My                 #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\hypertermina #
+#                    l.o" "C:\Documents and Settings\Young-Wan\My             #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\loopback.o"  #
+#                    "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\main.o"      #
+#                    "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\misc.o"      #
+#                    "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\socket.o"    #
+#                    "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\startup_stm3 #
+#                    2f10x_md.o" "C:\Documents and Settings\Young-Wan\My      #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\stm32f10x_bk #
+#                    p.o" "C:\Documents and Settings\Young-Wan\My             #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\stm32f10x_ex #
+#                    ti.o" "C:\Documents and Settings\Young-Wan\My            #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\stm32f10x_fl #
+#                    ash.o" "C:\Documents and Settings\Young-Wan\My           #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\stm32f10x_gp #
+#                    io.o" "C:\Documents and Settings\Young-Wan\My            #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\stm32f10x_it #
+#                    .o" "C:\Documents and Settings\Young-Wan\My              #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\stm32f10x_rc #
+#                    c.o" "C:\Documents and Settings\Young-Wan\My             #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\stm32f10x_sp #
+#                    i.o" "C:\Documents and Settings\Young-Wan\My             #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\stm32f10x_ti #
+#                    m.o" "C:\Documents and Settings\Young-Wan\My             #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\stm32f10x_us #
+#                    art.o" "C:\Documents and Settings\Young-Wan\My           #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\system_stm32 #
+#                    f10x.o" "C:\Documents and Settings\Young-Wan\My          #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\twitter.o"   #
+#                    "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\util.o"      #
+#                    "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Obj\w5200.o" -o  #
+#                    "C:\Documents and Settings\Young-Wan\My                  #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\Exe\W5200EVB_App #
+#                    .out" --map "C:\Documents and Settings\Young-Wan\My      #
+#                    Documents\W5200_newAPI\Application                       #
+#                    Note\W5200E01-M3_Twitter\Work\App\Debug\List\W5200EVB_Ap #
+#                    p.map" --config "C:\Program Files\IAR Systems\Embedded   #
+#                    Workbench 5.4\arm\CONFIG\generic_cortex.icf"             #
+#                    --semihosting --entry __iar_program_start                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__endian      = little
+__thumb_aware = enabled
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0007ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] {
+          rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xec
+  .intvec            ro code  0x00000000    0xec  startup_stm32f10x_md.o [1]
+                            - 0x000000ec    0xec
+
+"P1":                                     0x590c
+  .text              ro code  0x000000ec  0x1182  socket.o [1]
+  .text              ro code  0x00001270   0xcc2  xprintffull.o [3]
+  .text              ro code  0x00001f34   0x7a4  hyperterminal.o [1]
+  .text              ro code  0x000026d8   0x5ee  w5200.o [1]
+  .text              ro code  0x00002cc8   0x410  main.o [1]
+  .text              ro code  0x000030d8   0x2d8  stm32f10x_rcc.o [1]
+  .text              ro code  0x000033b0   0x2ba  dns_parse.o [1]
+  .text              ro code  0x0000366c   0x246  DblDiv.o [4]
+  .text              ro code  0x000038b4   0x1ac  dns.o [1]
+  .text              ro code  0x00003a60   0x1a2  DblMul.o [4]
+  .text              ro code  0x00003c04   0x17e  DblSub.o [4]
+  .text              ro code  0x00003d84   0x158  system_stm32f10x.o [1]
+  .text              ro code  0x00003edc   0x140  loopback.o [1]
+  .text              ro code  0x0000401c   0x12e  I64DivMod.o [4]
+  .text              ro code  0x0000414c   0x12c  stm32f10x_gpio.o [1]
+  .text              ro code  0x00004278   0x12c  stm32f10x_tim.o [1]
+  .text              ro code  0x000043a4   0x11c  util.o [1]
+  .text              ro code  0x000044c0   0x108  xdscale.o [3]
+  .text              ro code  0x000045c8   0x102  stm32f10x_usart.o [1]
+  .text              ro code  0x000046cc    0xe6  DblAdd.o [4]
+  .text              ro code  0x000047b4    0xe4  twitter.o [1]
+  .text              ro code  0x00004898    0xdc  stm32f10x_exti.o [1]
+  .text              ro code  0x00004974    0xc6  xdnorm.o [3]
+  .text              ro code  0x00004a3c    0xb0  SPI1.o [1]
+  .text              ro code  0x00004aec    0x98  misc.o [1]
+  .text              ro code  0x00004b84    0x74  stm32f10x_spi.o [1]
+  .text              ro code  0x00004bf8    0x70  ABImemcpy.o [4]
+  .text              ro code  0x00004c68    0x6c  strncpy.o [4]
+  .text              ro code  0x00004cd4    0x66  ABImemset.o [4]
+  .text              ro code  0x00004d3c    0x58  memchr.o [4]
+  .text              ro code  0x00004d94    0x56  DblToI32.o [4]
+  .text              ro code  0x00004dec    0x44  strcpy.o [4]
+  .text              ro code  0x00004e30    0x42  strcmp.o [4]
+  .rodata            const    0x00004e74    0x40  hyperterminal.o [1]
+  .rodata            const    0x00004eb4    0x40  hyperterminal.o [1]
+  .rodata            const    0x00004ef4    0x40  hyperterminal.o [1]
+  .rodata            const    0x00004f34    0x3c  hyperterminal.o [1]
+  .rodata            const    0x00004f70    0x3c  hyperterminal.o [1]
+  .text              ro code  0x00004fac    0x38  stm32f10x_flash.o [1]
+  .text              ro code  0x00004fe4    0x38  stm32f10x_it.o [1]
+  .text              ro code  0x0000501c    0x36  strlen.o [4]
+  .rodata            const    0x00005054    0x34  hyperterminal.o [1]
+  .rodata            const    0x00005088    0x34  hyperterminal.o [1]
+  .rodata            const    0x000050bc    0x34  twitter.o [1]
+  .rodata            const    0x000050f0    0x30  hyperterminal.o [1]
+  .rodata            const    0x00005120    0x30  main.o [1]
+  .text              ro code  0x00005150    0x30  sprintf.o [3]
+  .text              ro code  0x00005180    0x2e  DblCmpLe.o [4]
+  .text              ro code  0x000051b0    0x2e  DblCmpGe.o [4]
+  .text              ro code  0x000051e0    0x2e  I32ToDbl.o [4]
+  .rodata            const    0x00005210    0x2c  main.o [1]
+  .rodata            const    0x0000523c    0x2c  main.o [1]
+  .rodata            const    0x00005268    0x28  main.o [1]
+  .rodata            const    0x00005290    0x28  main.o [1]
+  .rodata            const    0x000052b8    0x28  main.o [1]
+  .rodata            const    0x000052e0    0x28  main.o [1]
+  .rodata            const    0x00005308    0x24  twitter.o [1]
+  .text              ro code  0x0000532c    0x24  copy_init2.o [4]
+  .iar.init_table    const    0x00005350    0x24  - Linker created -
+  .rodata            const    0x00005374    0x20  hyperterminal.o [1]
+  .rodata            const    0x00005394    0x20  loopback.o [1]
+  .rodata            const    0x000053b4    0x20  loopback.o [1]
+  .rodata            const    0x000053d4    0x20  main.o [1]
+  .text              ro code  0x000053f4    0x20  printf.o [3]
+  .text              ro code  0x00005414    0x20  data_init2.o [4]
+  .rodata            const    0x00005434    0x1c  hyperterminal.o [1]
+  .rodata            const    0x00005450    0x1c  hyperterminal.o [1]
+  .rodata            const    0x0000546c    0x1c  hyperterminal.o [1]
+  .rodata            const    0x00005488    0x1c  hyperterminal.o [1]
+  .rodata            const    0x000054a4    0x1c  hyperterminal.o [1]
+  .rodata            const    0x000054c0    0x1c  hyperterminal.o [1]
+  .rodata            const    0x000054dc    0x1c  main.o [1]
+  .rodata            const    0x000054f8    0x1c  twitter.o [1]
+  .text              ro code  0x00005514    0x1c  iarwstd.o [5]
+  .text              ro code  0x00005530    0x1a  zero_init2.o [4]
+  .rodata            const    0x0000554c    0x18  hyperterminal.o [1]
+  .rodata            const    0x00005564    0x18  hyperterminal.o [1]
+  .rodata            const    0x0000557c    0x18  hyperterminal.o [1]
+  .rodata            const    0x00005594    0x18  hyperterminal.o [1]
+  .rodata            const    0x000055ac    0x18  hyperterminal.o [1]
+  .rodata            const    0x000055c4    0x18  loopback.o [1]
+  .rodata            const    0x000055dc    0x18  loopback.o [1]
+  .rodata            const    0x000055f4    0x18  twitter.o [1]
+  .text              ro code  0x0000560c    0x18  cmain.o [4]
+  .text              ro code  0x00005624    0x16  strchr.o [4]
+  .text              ro code  0x0000563a    0x16  xprout.o [3]
+  .rodata            const    0x00005650    0x14  hyperterminal.o [1]
+  .rodata            const    0x00005664    0x14  hyperterminal.o [1]
+  .rodata            const    0x00005678    0x14  hyperterminal.o [1]
+  .rodata            const    0x0000568c    0x14  hyperterminal.o [1]
+  .rodata            const    0x000056a0    0x14  hyperterminal.o [1]
+  .rodata            const    0x000056b4    0x14  hyperterminal.o [1]
+  .rodata            const    0x000056c8    0x14  hyperterminal.o [1]
+  .rodata            const    0x000056dc    0x14  hyperterminal.o [1]
+  .rodata            const    0x000056f0    0x14  hyperterminal.o [1]
+  .rodata            const    0x00005704    0x14  hyperterminal.o [1]
+  .rodata            const    0x00005718    0x14  hyperterminal.o [1]
+  .rodata            const    0x0000572c    0x14  hyperterminal.o [1]
+  .rodata            const    0x00005740    0x14  hyperterminal.o [1]
+  .rodata            const    0x00005754    0x14  main.o [1]
+  .rodata            const    0x00005768    0x14  main.o [1]
+  .rodata            const    0x0000577c    0x14  main.o [1]
+  .rodata            const    0x00005790    0x14  main.o [1]
+  .rodata            const    0x000057a4    0x14  twitter.o [1]
+  .text              ro code  0x000057b8    0x14  exit.o [5]
+  .text              ro code  0x000057cc    0x14  dns_parse.o [1]
+  .rodata            const    0x000057e0    0x10  hyperterminal.o [1]
+  .rodata            const    0x000057f0    0x10  hyperterminal.o [1]
+  .rodata            const    0x00005800    0x10  hyperterminal.o [1]
+  .rodata            const    0x00005810    0x10  loopback.o [1]
+  .rodata            const    0x00005820    0x10  twitter.o [1]
+  .text              ro code  0x00005830    0x10  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005840     0xe  socket.o [1]
+  .text              ro code  0x0000584e     0xe  div.o [3]
+  .rodata            const    0x0000585c     0xc  hyperterminal.o [1]
+  .rodata            const    0x00005868     0xc  hyperterminal.o [1]
+  .rodata            const    0x00005874     0xc  hyperterminal.o [1]
+  .rodata            const    0x00005880     0xc  hyperterminal.o [1]
+  .rodata            const    0x0000588c     0xc  loopback.o [1]
+  .rodata            const    0x00005898     0xc  twitter.o [1]
+  .rodata            const    0x000058a4     0xc  twitter.o [1]
+  .text              ro code  0x000058b0     0xa  cexit.o [4]
+  .text              ro code  0x000058ba     0xa  xsprout.o [3]
+  .rodata            const    0x000058c4     0x8  hyperterminal.o [1]
+  .rodata            const    0x000058cc     0x8  socket.o [1]
+  .rodata            const    0x000058d4     0x8  socket.o [1]
+  .rodata            const    0x000058dc     0x8  xprintffull.o [3]
+  .text              ro code  0x000058e4     0x6  exit.o [3]
+  .rodata            const    0x000058ec     0x4  hyperterminal.o [1]
+  .text              ro code  0x000058f0     0x2  I64DivZer.o [4]
+  .text              ro code  0x000058f2     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000058f6     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000058fa     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000058fe     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005902     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005906     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000590a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000590e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005912     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005916     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000591a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000591e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005922     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005926     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000592a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000592e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005932     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005936     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000593a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000593e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005942     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005946     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000594a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000594e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005952     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005956     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000595a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000595e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005962     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005966     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000596a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000596e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005972     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005976     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000597a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000597e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005982     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005986     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000598a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000598e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005992     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x00005996     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000599a     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x0000599e     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000059a2     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000059a6     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000059aa     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000059ae     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000059b2     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000059b6     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000059ba     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000059be     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x000059c2     0x4  low_level_init.o [3]
+  Initializer bytes  ro data  0x000059c8    0x30  <for P2 s0>
+                            - 0x000059f8  0x590c
+
+"P2", part 1 of 3:                         0x400
+  CSTACK                      0x20000000   0x400  <Block>
+    CSTACK           uninit   0x20000000   0x400  <Block tail>
+                            - 0x20000400   0x400
+
+"P2", part 2 of 3:                          0x30
+  P2 s0                       0x20000400    0x30  <Init block>
+    .data            inited   0x20000400    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x20000410     0x8  main.o [1]
+    .data            inited   0x20000418     0x4  main.o [1]
+    .data            inited   0x2000041c     0x4  main.o [1]
+    .data            inited   0x20000420     0x4  main.o [1]
+    .data            inited   0x20000424     0x4  main.o [1]
+    .data            inited   0x20000428     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x2000042c     0x2  dns.o [1]
+    .data            inited   0x2000042e     0x2  twitter.o [1]
+                            - 0x20000430    0x30
+
+"P2", part 3 of 3:                         0xca4
+  .bss               zero     0x20000430   0x800  loopback.o [1]
+  .bss               zero     0x20000c30   0x200  dns.o [1]
+  .bss               zero     0x20000e30   0x100  hyperterminal.o [1]
+  .bss               zero     0x20000f30   0x100  twitter.o [1]
+  .bss               zero     0x20001030    0x18  hyperterminal.o [1]
+  .bss               zero     0x20001048    0x10  w5200.o [1]
+  .bss               zero     0x20001058    0x10  w5200.o [1]
+  .bss               zero     0x20001068    0x10  w5200.o [1]
+  .bss               zero     0x20001078    0x10  w5200.o [1]
+  .bss               zero     0x20001088    0x10  w5200.o [1]
+  .bss               zero     0x20001098    0x10  w5200.o [1]
+  .bss               zero     0x200010a8     0x8  w5200.o [1]
+  .bss               zero     0x200010b0     0x4  hyperterminal.o [1]
+  .bss               zero     0x200010b4     0x4  hyperterminal.o [1]
+  .bss               zero     0x200010b8     0x4  hyperterminal.o [1]
+  .bss               zero     0x200010bc     0x4  main.o [1]
+  .bss               zero     0x200010c0     0x4  socket.o [1]
+  .bss               zero     0x200010c4     0x4  socket.o [1]
+  .bss               zero     0x200010c8     0x4  iarwstd.o [5]
+  .bss               zero     0x200010cc     0x2  socket.o [1]
+  .bss               zero     0x200010ce     0x1  hyperterminal.o [1]
+  .bss               zero     0x200010cf     0x1  hyperterminal.o [1]
+  .bss               zero     0x200010d0     0x1  socket.o [1]
+                            - 0x200010d1   0xca1
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init2)
+    1 destination range, total size 0xca1:
+          0x20000430  0xca1
+
+Copy (__iar_copy_init2)
+    1 source range, total size 0x30 (100% of destination):
+          0x000059c8   0x30
+    1 destination range, total size 0x30:
+          0x20000400   0x30
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Documents and Settings\Young-Wan\My Documents\W5200_newAPI\Application Note\W5200E01-M3_Twitter\Work\App\Debug\Obj: [1]
+    SPI1.o                      176
+    dns.o                       428        2      514
+    dns_parse.o                 718
+    hyperterminal.o           1 956    1 152      294
+    loopback.o                  320      140    2 048
+    main.o                    1 040      460       28
+    misc.o                      152
+    socket.o                  4 496       16       11
+    startup_stm32f10x_md.o      460
+    stm32f10x_exti.o            220
+    stm32f10x_flash.o            56
+    stm32f10x_gpio.o            300
+    stm32f10x_it.o               56
+    stm32f10x_rcc.o             728       20       20
+    stm32f10x_spi.o             116
+    stm32f10x_tim.o             300
+    stm32f10x_usart.o           258
+    system_stm32f10x.o          344
+    twitter.o                   228      202      258
+    util.o                      284
+    w5200.o                   1 518               104
+    -------------------------------------------------
+    Total:                   14 154    1 992    3 277
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tl_in.a: [3]
+    div.o                        14
+    exit.o                        6
+    low_level_init.o              4
+    printf.o                     32
+    sprintf.o                    48
+    xdnorm.o                    198
+    xdscale.o                   264
+    xprintffull.o             3 266        8
+    xprout.o                     22
+    xsprout.o                    10
+    -------------------------------------------------
+    Total:                    3 864        8
+
+rt7M_tl.a: [4]
+    ABImemcpy.o                 112
+    ABImemset.o                 102
+    DblAdd.o                    230
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblSub.o                    382
+    DblToI32.o                   86
+    I32ToDbl.o                   46
+    I64DivMod.o                 302
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      24
+    copy_init2.o                 36
+    data_init2.o                 32
+    memchr.o                     88
+    strchr.o                     22
+    strcmp.o                     66
+    strcpy.o                     68
+    strlen.o                     54
+    strncpy.o                   108
+    zero_init2.o                 26
+    -------------------------------------------------
+    Total:                    2 888
+
+shb_l.a: [5]
+    exit.o                       20
+    iarwstd.o                    28                 4
+    -------------------------------------------------
+    Total:                       48                 4
+
+    Gaps                         30       10
+    Linker created                        38    1 024
+-----------------------------------------------------
+    Grand Total:             20 984    2 048    4 305
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+ADC1_2_IRQHandler       0x0000595f         Code  Wk  startup_stm32f10x_md.o [1]
+ADCPrescTable           0x20000428    0x4  Data  Lc  stm32f10x_rcc.o [1]
+APBAHBPrescTable        0x20000400   0x10  Data  Lc  stm32f10x_rcc.o [1]
+ATOI                    0x00002031   0x28  Code  Gb  hyperterminal.o [1]
+BusFault_Handler        0x00004feb    0x2  Code  Gb  stm32f10x_it.o [1]
+C2D                     0x00001ffd   0x34  Code  Gb  hyperterminal.o [1]
+CAN1_RX1_IRQHandler     0x0000596b         Code  Wk  startup_stm32f10x_md.o [1]
+CAN1_SCE_IRQHandler     0x0000596f         Code  Wk  startup_stm32f10x_md.o [1]
+CSTACK$$Base            0x20000000          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000400          --   Gb  - Linker created -
+ClearSubnet             0x000000f5   0x10  Code  Gb  socket.o [1]
+DHCPEnable              0x200010d0    0x1  Data  Lc  socket.o [1]
+DMA1_Channel1_IRQHandler
+                        0x00005943         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel2_IRQHandler
+                        0x00005947         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel3_IRQHandler
+                        0x0000594b         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel4_IRQHandler
+                        0x0000594f         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel5_IRQHandler
+                        0x00005953         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel6_IRQHandler
+                        0x00005957         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel7_IRQHandler
+                        0x0000595b         Code  Wk  startup_stm32f10x_md.o [1]
+DNSServerIP             0x20000424    0x4  Data  Gb  main.o [1]
+DNSServerIP             0x200010c4    0x4  Data  Lc  socket.o [1]
+DebugMon_Handler        0x00004ff1    0x2  Code  Gb  stm32f10x_it.o [1]
+Delay_ms                0x00004467   0x2c  Code  Gb  util.o [1]
+Delay_us                0x00004441   0x26  Code  Gb  util.o [1]
+EXTI0_IRQHandler        0x0000592f         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI15_10_IRQHandler    0x000059b7         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI1_IRQHandler        0x00005933         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI2_IRQHandler        0x00005937         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI3_IRQHandler        0x0000593b         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI4_IRQHandler        0x0000593f         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI9_5_IRQHandler      0x00005973         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI_DeInit             0x000048b3   0x20  Code  Gb  stm32f10x_exti.o [1]
+EXTI_IMR_EMR_enable     0x00004899   0x1a  Code  Gb  stm32f10x_exti.o [1]
+EXTI_Init               0x000048d3   0x88  Code  Gb  stm32f10x_exti.o [1]
+FLASH_IRQHandler        0x00005927         Code  Wk  startup_stm32f10x_md.o [1]
+FLASH_PrefetchBufferCmd
+                        0x00004fc5   0x1c  Code  Gb  stm32f10x_flash.o [1]
+FLASH_SetLatency        0x00004fad   0x18  Code  Gb  stm32f10x_flash.o [1]
+GPIO_Configuration      0x00002e75  0x104  Code  Gb  main.o [1]
+GPIO_EXTILineConfig     0x00004225   0x50  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_Init               0x0000414d   0xcc  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x0000421f    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x00004219    0x6  Code  Gb  stm32f10x_gpio.o [1]
+Gateway                 0x2000041c    0x4  Data  Gb  main.o [1]
+GetInputString          0x00001fa5   0x58  Code  Gb  hyperterminal.o [1]
+GetKey                  0x00001f59   0x18  Code  Gb  hyperterminal.o [1]
+GetNetInfo              0x000004dd   0x62  Code  Gb  socket.o [1]
+GetSocketRxRecvBufferSize
+                        0x000005d9    0xa  Code  Gb  socket.o [1]
+GetSocketTxFreeBufferSize
+                        0x000005cf    0xa  Code  Gb  socket.o [1]
+GetTCPSocketStatus      0x0000053f   0x90  Code  Gb  socket.o [1]
+HardFault_Handler       0x00004fe7    0x2  Code  Gb  stm32f10x_it.o [1]
+I2C1_ER_IRQHandler      0x00005997         Code  Wk  startup_stm32f10x_md.o [1]
+I2C1_EV_IRQHandler      0x00005993         Code  Wk  startup_stm32f10x_md.o [1]
+I2C2_ER_IRQHandler      0x0000599f         Code  Wk  startup_stm32f10x_md.o [1]
+I2C2_EV_IRQHandler      0x0000599b         Code  Wk  startup_stm32f10x_md.o [1]
+IINCHIP_CSoff           0x00002751    0xa  Code  Gb  w5200.o [1]
+IINCHIP_CSon            0x0000275b    0xa  Code  Gb  w5200.o [1]
+IINCHIP_READ            0x000027a7   0x38  Code  Gb  w5200.o [1]
+IINCHIP_READ_BLOCK      0x00002843   0x58  Code  Gb  w5200.o [1]
+IINCHIP_SpiSendData     0x00002765    0xa  Code  Gb  w5200.o [1]
+IINCHIP_WRITE           0x0000276f   0x38  Code  Gb  w5200.o [1]
+IINCHIP_WRITE_BLOCK     0x000027df   0x64  Code  Gb  w5200.o [1]
+IP                      0x20000418    0x4  Data  Gb  main.o [1]
+LED3_onoff              0x000043c9   0x1e  Code  Gb  util.o [1]
+LED4_onoff              0x000043e7   0x1e  Code  Gb  util.o [1]
+MSG_ID                  0x2000042c    0x2  Data  Gb  dns.o [1]
+Mac                     0x20000410    0x8  Data  Gb  main.o [1]
+Main_Menu               0x00002185  0x464  Code  Gb  hyperterminal.o [1]
+MemManage_Handler       0x00004fe9    0x2  Code  Gb  stm32f10x_it.o [1]
+NMI_Handler             0x00004fe5    0x2  Code  Gb  stm32f10x_it.o [1]
+NVIC_Configuration      0x00003043   0x4c  Code  Gb  main.o [1]
+NVIC_Init               0x00004af7   0x66  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x00004aed    0xa  Code  Gb  misc.o [1]
+NVIC_SetVectorTable     0x00004b5d    0xc  Code  Gb  misc.o [1]
+PVD_IRQHandler          0x0000591b         Code  Wk  startup_stm32f10x_md.o [1]
+PendSV_Handler          0x00004ff3    0x2  Code  Gb  stm32f10x_it.o [1]
+RBUFBASEADDRESS         0x20001098   0x10  Data  Gb  w5200.o [1]
+RCC_APB1PeriphClockCmd  0x00003315   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x000032f5   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_Configuration       0x00002fcd   0x76  Code  Gb  main.o [1]
+RCC_DeInit              0x000030d9   0x5c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x00003235   0xc0  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetFlagStatus       0x00003335   0x44  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetSYSCLKSource     0x000031ed    0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HCLKConfig          0x000031f7   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HSEConfig           0x00003135   0x4c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_IRQHandler          0x0000592b         Code  Wk  startup_stm32f10x_md.o [1]
+RCC_PCLK1Config         0x0000320b   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK2Config         0x0000321f   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLCmd              0x000031d1    0x8  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLConfig           0x000031bb   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_SYSCLKConfig        0x000031d9   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_WaitForHSEStartUp   0x00003181   0x3a  Code  Gb  stm32f10x_rcc.o [1]
+RMASK                   0x20001058   0x10  Data  Gb  w5200.o [1]
+RSIZE                   0x20001078   0x10  Data  Gb  w5200.o [1]
+RTCAlarm_IRQHandler     0x000059bb         Code  Wk  startup_stm32f10x_md.o [1]
+RTC_IRQHandler          0x00005923         Code  Wk  startup_stm32f10x_md.o [1]
+Region$$Table$$Base     0x00005350          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00005374          --   Gb  - Linker created -
+Reset_Handler           0x00005831         Code  Wk  startup_stm32f10x_md.o [1]
+Reset_W5200             0x000043a5   0x24  Code  Gb  util.o [1]
+SBUFBASEADDRESS         0x20001088   0x10  Data  Gb  w5200.o [1]
+SMASK                   0x20001048   0x10  Data  Gb  w5200.o [1]
+SPI1_IRQHandler         0x000059a3         Code  Wk  startup_stm32f10x_md.o [1]
+SPI1_SendByte           0x00004ab1   0x32  Code  Gb  SPI1.o [1]
+SPI2_IRQHandler         0x000059a7         Code  Wk  startup_stm32f10x_md.o [1]
+SPI_Cmd                 0x00004bc3   0x1a  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_GetFlagStatus   0x00004be5   0x14  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_ReceiveData     0x00004be1    0x4  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_SendData        0x00004bdd    0x4  Code  Gb  stm32f10x_spi.o [1]
+SPI_Init                0x00004b85   0x3e  Code  Gb  stm32f10x_spi.o [1]
+SSIZE                   0x20001068   0x10  Data  Gb  w5200.o [1]
+STRTOK                  0x0000209b   0x68  Code  Gb  hyperterminal.o [1]
+SVC_Handler             0x00004fef    0x2  Code  Gb  stm32f10x_it.o [1]
+SerialKeyPressed        0x00001f35   0x24  Code  Gb  hyperterminal.o [1]
+SerialPutChar           0x00001f71   0x1e  Code  Gb  hyperterminal.o [1]
+SerialPutString         0x00001f8f   0x16  Code  Gb  hyperterminal.o [1]
+SetNetInfo              0x000003f3   0xea  Code  Gb  socket.o [1]
+SetSubnet               0x000000ed    0x8  Code  Gb  socket.o [1]
+SetSysClock             0x00003dd7    0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72         0x00003ddf   0xe0  Code  Lc  system_stm32f10x.o [1]
+Subnet                  0x20000420    0x4  Data  Gb  main.o [1]
+Subnet                  0x200010c0    0x4  Data  Lc  socket.o [1]
+SysTick_Handler         0x00004ff5    0x2  Code  Gb  stm32f10x_it.o [1]
+SystemInit              0x00003d85   0x52  Code  Gb  system_stm32f10x.o [1]
+TAMPER_IRQHandler       0x0000591f         Code  Wk  startup_stm32f10x_md.o [1]
+TCPClientOpen           0x00000709  0x242  Code  Gb  socket.o [1]
+TCPClose                0x00000a49   0xa6  Code  Gb  socket.o [1]
+TCPReSend               0x00000ce9  0x16e  Code  Gb  socket.o [1]
+TCPRecv                 0x00000e57   0xe6  Code  Gb  socket.o [1]
+TCPSend                 0x00000b3b  0x1ae  Code  Gb  socket.o [1]
+TCPServerOpen           0x000005e3  0x126  Code  Gb  socket.o [1]
+TIM1_BRK_IRQHandler     0x00005977         Code  Wk  startup_stm32f10x_md.o [1]
+TIM1_CC_IRQHandler      0x00005983         Code  Wk  startup_stm32f10x_md.o [1]
+TIM1_TRG_COM_IRQHandler
+                        0x0000597f         Code  Wk  startup_stm32f10x_md.o [1]
+TIM1_UP_IRQHandler      0x0000597b         Code  Wk  startup_stm32f10x_md.o [1]
+TIM2_IRQHandler         0x00004ff7   0x20  Code  Gb  stm32f10x_it.o [1]
+TIM3_IRQHandler         0x00005017    0x2  Code  Gb  stm32f10x_it.o [1]
+TIM4_IRQHandler         0x0000598f         Code  Wk  startup_stm32f10x_md.o [1]
+TIM_ClearITPendingBit   0x00004373    0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x0000430d   0x1a  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetITStatus         0x00004345   0x2e  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x00004327   0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_PrescalerConfig     0x0000433f    0x6  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x00004279   0x94  Code  Gb  stm32f10x_tim.o [1]
+Timer2_Counter          0x200010bc    0x4  Data  Gb  main.o [1]
+Timer2_ISR              0x00002e1b   0x18  Code  Gb  main.o [1]
+Timer_Configuration     0x0000308f   0x4a  Code  Gb  main.o [1]
+Twitter_Post            0x000047b5   0xe4  Code  Gb  twitter.o [1]
+UDPClose                0x00000aef   0x4c  Code  Gb  socket.o [1]
+UDPOpen                 0x0000094b   0xdc  Code  Gb  socket.o [1]
+UDPRecv                 0x00001145  0x12a  Code  Gb  socket.o [1]
+UDPSend                 0x00000f3d  0x1f6  Code  Gb  socket.o [1]
+USART1_IRQHandler       0x00005019    0x2  Code  Gb  stm32f10x_it.o [1]
+USART1_Init             0x00004405   0x3c  Code  Gb  util.o [1]
+USART2_IRQHandler       0x0000501b    0x2  Code  Gb  stm32f10x_it.o [1]
+USART3_IRQHandler       0x000059b3         Code  Wk  startup_stm32f10x_md.o [1]
+USART_Cmd               0x0000468d   0x1a  Code  Gb  stm32f10x_usart.o [1]
+USART_GetFlagStatus     0x000046af   0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x000045c9   0xbe  Code  Gb  stm32f10x_usart.o [1]
+USART_SendData          0x000046a7    0x8  Code  Gb  stm32f10x_usart.o [1]
+USBWakeUp_IRQHandler    0x000059bf         Code  Wk  startup_stm32f10x_md.o [1]
+USB_HP_CAN1_TX_IRQHandler
+                        0x00005963         Code  Wk  startup_stm32f10x_md.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                        0x00005967         Code  Wk  startup_stm32f10x_md.o [1]
+UsageFault_Handler      0x00004fed    0x2  Code  Gb  stm32f10x_it.o [1]
+ValidATOI               0x00002059   0x42  Code  Gb  hyperterminal.o [1]
+VerifyIPAddress         0x00002103   0x74  Code  Gb  hyperterminal.o [1]
+WIZ_CS                  0x00004a8f   0x22  Code  Gb  SPI1.o [1]
+WIZ_Config              0x00002cc9  0x152  Code  Gb  main.o [1]
+WIZ_SPI_Init            0x00004a3d   0x52  Code  Gb  SPI1.o [1]
+WWDG_IRQHandler         0x00005917         Code  Wk  startup_stm32f10x_md.o [1]
+_GenldDefault           0x00001c99  0x24e  Code  Lc  xprintffull.o [3]
+_LdtobDefault           0x00001885  0x40e  Code  Lc  xprintffull.o [3]
+_LitobDefault           0x00001777  0x10e  Code  Lc  xprintffull.o [3]
+_Printf                 0x00001271  0x506  Code  Gb  xprintffull.o [3]
+_Prout                  0x0000563b   0x16  Code  Gb  xprout.o [3]
+_PutcharsDefault        0x00001f01   0x32  Code  Lc  xprintffull.o [3]
+_SProut                 0x000058bb    0xa  Code  Gb  xsprout.o [3]
+__aeabi_cdcmple         0x00005181         Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x000051b1         Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x00004d95         Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x00004dc1         Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x000046cd         Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x0000366d         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x00003a61         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x00003c05         Code  Gb  DblSub.o [4]
+__aeabi_i2d             0x000051e1         Code  Gb  I32ToDbl.o [4]
+__aeabi_ldiv0           0x000058f1         Code  Gb  I64DivZer.o [4]
+__aeabi_ldivmod         0x0000401d         Code  Gb  I64DivMod.o [4]
+__aeabi_memcpy          0x00004bf9         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4         0x00004c13         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8         0x00004c13         Code  Gb  ABImemcpy.o [4]
+__aeabi_memset          0x00004cd5         Code  Gb  ABImemset.o [4]
+__aeabi_ui2d            0x000051f5         Code  Gb  I32ToDbl.o [4]
+__aeabi_uldivmod        0x00004031         Code  Gb  I64DivMod.o [4]
+__exit                  0x000057b9   0x14  Code  Gb  exit.o [5]
+__iar_Dnorm             0x00004975   0xc6  Code  Gb  xdnorm.o [3]
+__iar_Dscale            0x000044c1  0x108  Code  Gb  xdscale.o [3]
+__iar_Memchr            0x00004d3d         Code  Gb  memchr.o [4]
+__iar_Memset            0x00004cd5         Code  Gb  ABImemset.o [4]
+__iar_Memset_word       0x00004cdd         Code  Gb  ABImemset.o [4]
+__iar_Strchr            0x00005625         Code  Gb  strchr.o [4]
+__iar_copy_init2        0x0000532d   0x24  Code  Gb  copy_init2.o [4]
+__iar_d2uiz             0x00004dcb         Code  Gb  DblToI32.o [4]
+__iar_dadd              0x000046df         Code  Gb  DblAdd.o [4]
+__iar_data_init2        0x00005415   0x20  Code  Gb  data_init2.o [4]
+__iar_dsub              0x00003c17         Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x00003c29         Code  Gb  DblSub.o [4]
+__iar_program_start     0x0000560d         Code  Gb  cmain.o [4]
+__iar_sh_stdout_close   0x00005515   0x16  Code  Gb  iarwstd.o [5]
+__iar_sh_stdout_handle  0x200010c8    0x4  Data  Lc  iarwstd.o [5]
+__iar_strcmp            0x00004e31         Code  Gb  strcmp.o [4]
+__iar_ui2d              0x000051f7         Code  Gb  I32ToDbl.o [4]
+__iar_zero_init2        0x00005531   0x1a  Code  Gb  zero_init2.o [4]
+__low_level_init        0x000059c3    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000         Data  Gb  startup_stm32f10x_md.o [1]
+_exit                   0x000058b1         Code  Gb  cexit.o [4]
+_main                   0x0000561f         Code  Gb  cmain.o [4]
+buf                     0x20000f30  0x100  Data  Gb  twitter.o [1]
+client_port             0x2000042e    0x2  Data  Gb  twitter.o [1]
+data_buf                0x20000430  0x800  Data  Gb  loopback.o [1]
+div                     0x0000584f    0xe  Code  Gb  div.o [3]
+dns_answer              0x00003485  0x10e  Code  Gb  dns_parse.o [1]
+dns_buf                 0x20000c30  0x200  Data  Gb  dns.o [1]
+dns_makequery           0x000038c3   0xec  Code  Gb  dns.o [1]
+dns_query               0x000039af   0xaa  Code  Gb  dns.o [1]
+dns_question            0x00003459   0x2c  Code  Gb  dns_parse.o [1]
+exit                    0x000058e5    0x6  Code  Gb  exit.o [3]
+get16                   0x000033b1   0x10  Code  Gb  dns_parse.o [1]
+getGAR                  0x00002943   0x26  Code  Gb  w5200.o [1]
+getIINCHIP_RxBASE       0x0000271f    0xa  Code  Gb  w5200.o [1]
+getIINCHIP_RxMASK       0x0000270b    0xa  Code  Gb  w5200.o [1]
+getIINCHIP_RxMAX        0x000026f7    0xa  Code  Gb  w5200.o [1]
+getIINCHIP_TxBASE       0x00002729    0xa  Code  Gb  w5200.o [1]
+getIINCHIP_TxMASK       0x00002715    0xa  Code  Gb  w5200.o [1]
+getIINCHIP_TxMAX        0x00002701    0xa  Code  Gb  w5200.o [1]
+getSHAR                 0x00002969   0x36  Code  Gb  w5200.o [1]
+getSIPR                 0x0000299f   0x26  Code  Gb  w5200.o [1]
+getSn_RX_RSR            0x00002a67   0x7c  Code  Gb  w5200.o [1]
+getSn_SR                0x000029d3   0x18  Code  Gb  w5200.o [1]
+getSn_TX_FSR            0x000029eb   0x7c  Code  Gb  w5200.o [1]
+incr_windowfull_retry_cnt
+                        0x000026d9   0x14  Code  Gb  w5200.o [1]
+init_windowfull_retry_cnt
+                        0x000026ed    0xa  Code  Gb  w5200.o [1]
+local_port              0x200010cc    0x2  Data  Lc  socket.o [1]
+loopback_tcps           0x00003edd   0xa2  Code  Gb  loopback.o [1]
+loopback_udp            0x00003f7f   0x82  Code  Gb  loopback.o [1]
+main                    0x00002e33   0x42  Code  Gb  main.o [1]
+memchr                  0x00004d3d         Code  Gb  memchr.o [4]
+memcpy                  0x00005841    0xe  Code  Gb  socket.o [1]
+memset                  0x000057cd   0x14  Code  Gb  dns_parse.o [1]
+parseMSG                0x00003593   0xd8  Code  Gb  dns_parse.o [1]
+parse_name              0x000033c1   0x98  Code  Gb  dns_parse.o [1]
+printf                  0x000053f5   0x20  Code  Gb  printf.o [3]
+put16                   0x000038b5    0xe  Code  Gb  dns.o [1]
+putchar                 0x00004493   0x20  Code  Gb  util.o [1]
+recv_data_processing    0x00002bd5   0xf2  Code  Gb  w5200.o [1]
+send_data_processing    0x00002ae3   0xf2  Code  Gb  w5200.o [1]
+setGAR                  0x0000289b   0x26  Code  Gb  w5200.o [1]
+setMR                   0x000029c5    0xe  Code  Gb  w5200.o [1]
+setSHAR                 0x000028e7   0x36  Code  Gb  w5200.o [1]
+setSIPR                 0x0000291d   0x26  Code  Gb  w5200.o [1]
+setSUBR                 0x000028c1   0x26  Code  Gb  w5200.o [1]
+sprintf                 0x00005151   0x30  Code  Gb  sprintf.o [3]
+strchr                  0x00005625         Code  Gb  strchr.o [4]
+strcmp                  0x00004e31         Code  Gb  strcmp.o [4]
+strcpy                  0x00004ded         Code  Gb  strcpy.o [4]
+strlen                  0x0000501d         Code  Gb  strlen.o [4]
+strncpy                 0x00004c69         Code  Gb  strncpy.o [4]
+windowfull_retry_cnt    0x200010a8    0x8  Data  Gb  w5200.o [1]
+wizInit                 0x00000105   0x30  Code  Gb  socket.o [1]
+wizMemInit              0x0000013f  0x2b4  Code  Gb  socket.o [1]
+wizSWReset              0x00000135    0xa  Code  Gb  socket.o [1]
+
+
+[1] = C:\Documents and Settings\Young-Wan\My Documents\W5200_newAPI\Application Note\W5200E01-M3_Twitter\Work\App\Debug\Obj
+[2] = command line
+[3] = dl7M_tl_in.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  20 984 bytes of readonly  code memory
+   2 048 bytes of readonly  data memory
+   4 305 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

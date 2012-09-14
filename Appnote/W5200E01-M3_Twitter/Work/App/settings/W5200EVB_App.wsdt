@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>W5200EVB_App/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>362</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>916</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Find-in-Files>
+    <TerminalIO/></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-3020-16074</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>W5200EVB_App</ExpandedNode><ExpandedNode>W5200EVB_App/Output</ExpandedNode><ExpandedNode>W5200EVB_App/USER</ExpandedNode><ExpandedNode>W5200EVB_App/USER/APPs</ExpandedNode><ExpandedNode>W5200EVB_App/USER/W5200</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-30017-19457</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-17388-22559</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\main.c</Filename><XPos>0</XPos><YPos>33</YPos><SelStart>1141</SelStart><SelEnd>1141</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\W5200\w5200.c</Filename><XPos>0</XPos><YPos>327</YPos><SelStart>9186</SelStart><SelEnd>9191</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\util.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>126</SelStart><SelEnd>126</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\W5200\socket.c</Filename><XPos>0</XPos><YPos>846</YPos><SelStart>21203</SelStart><SelEnd>21203</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\Types.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>2305</SelStart><SelEnd>2305</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\dns.c</Filename><XPos>0</XPos><YPos>130</YPos><SelStart>4224</SelStart><SelEnd>4224</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\dns_parse.c</Filename><XPos>0</XPos><YPos>263</YPos><SelStart>6924</SelStart><SelEnd>6924</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\hyperterminal.c</Filename><XPos>0</XPos><YPos>617</YPos><SelStart>17161</SelStart><SelEnd>17161</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\twitter.c</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>386</SelStart><SelEnd>386</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\APPS\twitter.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>154</SelStart><SelEnd>154</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\APPS\dns_parse.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>74</SelStart><SelEnd>74</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\APPs\dns.h</Filename><XPos>0</XPos><YPos>16</YPos><SelStart>1402</SelStart><SelEnd>1404</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\config.h</Filename><XPos>0</XPos><YPos>66</YPos><SelStart>1754</SelStart><SelEnd>1754</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\loopback.c</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>923</SelStart><SelEnd>947</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\W5200\w5200.h</Filename><XPos>0</XPos><YPos>230</YPos><SelStart>7101</SelStart><SelEnd>7101</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\W5200\socket.h</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>652</SelStart><SelEnd>652</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug\List\W5200EVB_App.map</Filename><XPos>0</XPos><YPos>357</YPos><SelStart>24136</SelStart><SelEnd>25515</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00b1a348><key>iaridepm.enu1</key></Toolbar-00b1a348></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>764</Bottom><Right>436</Right><x>-2</x><y>-2</y><xscreen>149</xscreen><yscreen>147</yscreen><sizeHorzCX>77604</sizeHorzCX><sizeHorzCY>150924</sizeHorzCY><sizeVertCX>228125</sizeVertCX><sizeVertCY>786448</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>165</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>167</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>171458</sizeHorzCY><sizeVertCX>77604</sizeVertCX><sizeVertCY>150924</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

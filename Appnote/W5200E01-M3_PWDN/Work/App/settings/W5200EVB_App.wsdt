@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>W5200EVB_App/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>154</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>916</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Find-in-Files>
+    <TerminalIO/></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-3020-16074</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>W5200EVB_App</ExpandedNode><ExpandedNode>W5200EVB_App/USER</ExpandedNode><ExpandedNode>W5200EVB_App/USER/APPs</ExpandedNode><ExpandedNode>W5200EVB_App/USER/W5200</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-30017-19457</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-17388-22559</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\main.c</Filename><XPos>0</XPos><YPos>13</YPos><SelStart>942</SelStart><SelEnd>942</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\hyperterminal.c</Filename><XPos>0</XPos><YPos>564</YPos><SelStart>15537</SelStart><SelEnd>15537</SelEnd></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\W5200\w5200.c</Filename><XPos>0</XPos><YPos>482</YPos><SelStart>12756</SelStart><SelEnd>12756</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\W5200\w5200.h</Filename><XPos>0</XPos><YPos>157</YPos><SelStart>4175</SelStart><SelEnd>4175</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\Types.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>267</SelStart><SelEnd>267</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\config.h</Filename><XPos>0</XPos><YPos>32</YPos><SelStart>1088</SelStart><SelEnd>1088</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\loopback.c</Filename><XPos>0</XPos><YPos>51</YPos><SelStart>532</SelStart><SelEnd>532</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\W5200\socket.c</Filename><XPos>0</XPos><YPos>609</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01dc0090><key>iaridepm.enu1</key></Toolbar-01dc0090></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>503</Bottom><Right>228</Right><x>-2</x><y>-2</y><xscreen>78</xscreen><yscreen>71</yscreen><sizeHorzCX>57101</sizeHorzCX><sizeHorzCY>103499</sizeHorzCY><sizeVertCX>168375</sizeVertCX><sizeVertCY>736152</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>138</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>140</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>204082</sizeHorzCY><sizeVertCX>57101</sizeVertCX><sizeVertCY>103499</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

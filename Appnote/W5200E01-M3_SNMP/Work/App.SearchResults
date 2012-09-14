@@ -1,0 +1,5 @@
+---- OLD_BOARD Matches (4 in 3 files) ----
+Config.h (app\include)://#define OLD_BOARD
+Main.c (app\source):#ifdef OLD_BOARD
+Util.c (app\source):#ifdef OLD_BOARD
+Util.c (app\source):#ifdef OLD_BOARD

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>948</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>711</ColumnWidth1>
+        <ColumnWidth2>189</ColumnWidth2>
+        <ColumnWidth3>47</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>305</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+        
+      <MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow><InstrProfShow>0</InstrProfShow></Disassembly>
+    </Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-32220-2121</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-31697-2130</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-10200-2124</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>W5200EVB_App</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20949-2127</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\main.c</Filename><XPos>0</XPos><YPos>89</YPos><SelStart>3460</SelStart><SelEnd>3460</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\W5200\w5200.c</Filename><XPos>0</XPos><YPos>366</YPos><SelStart>9750</SelStart><SelEnd>9750</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\W5200\socket.c</Filename><XPos>0</XPos><YPos>643</YPos><SelStart>16099</SelStart><SelEnd>16099</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\W5200\socket.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>638</SelStart><SelEnd>638</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\Types.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>267</SelStart><SelEnd>267</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\config.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>176</SelStart><SelEnd>186</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\hyperterminal.c</Filename><XPos>0</XPos><YPos>438</YPos><SelStart>12884</SelStart><SelEnd>12884</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\dns.c</Filename><XPos>0</XPos><YPos>127</YPos><SelStart>4081</SelStart><SelEnd>4081</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\smtp.c</Filename><XPos>0</XPos><YPos>100</YPos><SelStart>5481</SelStart><SelEnd>5481</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\APPs\smtp.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>495</SelStart><SelEnd>495</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\W5200\w5200.h</Filename><XPos>0</XPos><YPos>224</YPos><SelStart>7353</SelStart><SelEnd>7369</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\APPs\base64.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>555</SelStart><SelEnd>555</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\base64.c</Filename><XPos>0</XPos><YPos>120</YPos><SelStart>5251</SelStart><SelEnd>5251</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\APPs\loopback.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>544</SelStart><SelEnd>553</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\util.c</Filename><XPos>0</XPos><YPos>19</YPos><SelStart>1263</SelStart><SelEnd>1263</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00b19ec8><key>iaridepm.enu1</key></Toolbar-00b19ec8></Sizes></Row0><Row1><Sizes><Toolbar-0465e008><key>debuggergui.enu1</key></Toolbar-0465e008></Sizes></Row1></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>694</Bottom><Right>379</Right><x>-2</x><y>-2</y><xscreen>381</xscreen><yscreen>213</yscreen><sizeHorzCX>198438</sizeHorzCX><sizeHorzCY>218686</sizeHorzCY><sizeVertCX>198438</sizeVertCX><sizeVertCY>714579</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>694</Bottom><Right>379</Right><x>-2</x><y>-2</y><xscreen>381</xscreen><yscreen>213</yscreen><sizeHorzCX>198438</sizeHorzCX><sizeHorzCY>218686</sizeHorzCY><sizeVertCX>198438</sizeVertCX><sizeVertCY>714579</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>211</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>213</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>218686</sizeHorzCY><sizeVertCX>198438</sizeVertCX><sizeVertCY>218686</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

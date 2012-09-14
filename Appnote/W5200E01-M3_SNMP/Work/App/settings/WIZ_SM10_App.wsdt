@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>WIZ_SM10_App/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>322</Column0><Column1>49</Column1><Column2>27</Column2><Column3>1242260</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>816</ColumnWidth1><ColumnWidth2>217</ColumnWidth2><ColumnWidth3>54</ColumnWidth3></Build>
+      <Debug-Log>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1135</ColumnWidth1>
+      </Debug-Log>
+      <TerminalIO/>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-11379-24347</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>WIZ_SM10_App</ExpandedNode><ExpandedNode>WIZ_SM10_App/Output</ExpandedNode><ExpandedNode>WIZ_SM10_App/USER</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1823-26982</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-29615-1062</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files\IAR Systems\Embedded Workbench 5.4\arm\doc\infocenter\index.ENU.html</Filename></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\main.c</Filename><XPos>0</XPos><YPos>66</YPos><SelStart>1888</SelStart><SelEnd>1888</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_md.s</Filename><XPos>0</XPos><YPos>16</YPos><SelStart>1923</SelStart><SelEnd>1923</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\Types.h</Filename><XPos>0</XPos><YPos>111</YPos><SelStart>3023</SelStart><SelEnd>3023</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c</Filename><XPos>0</XPos><YPos>159</YPos><SelStart>5807</SelStart><SelEnd>5807</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\util.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>83</SelStart><SelEnd>83</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\util.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>410</SelStart><SelEnd>410</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\system_stm32f10x.c</Filename><XPos>0</XPos><YPos>189</YPos><SelStart>6281</SelStart><SelEnd>6281</SelEnd></Tab><ActiveTab>7</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00a9a710><key>iaridepm.enu1</key></Toolbar-00a9a710></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>664</Bottom><Right>418</Right><x>-2</x><y>-2</y><xscreen>335</xscreen><yscreen>212</yscreen><sizeHorzCX>262745</sizeHorzCX><sizeHorzCY>225532</sizeHorzCY><sizeVertCX>329412</sizeVertCX><sizeVertCY>708511</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>231</Bottom><Right>1277</Right><x>-2</x><y>-2</y><xscreen>1279</xscreen><yscreen>233</yscreen><sizeHorzCX>1003137</sizeHorzCX><sizeHorzCY>247872</sizeHorzCY><sizeVertCX>262745</sizeVertCX><sizeVertCY>225532</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

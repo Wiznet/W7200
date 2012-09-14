@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>W5200EVB_App/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>594</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>SourceBrowser</Factory></Window></Windows></PreferedWindows></Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>916</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+    <SourceBrowser><PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Workspace</Factory></Window></Windows></PreferedWindows></SourceBrowser><Debug-Log><ColumnWidth0>19</ColumnWidth0><ColumnWidth1>1160</ColumnWidth1></Debug-Log><Find-in-Files><ColumnWidth0>946</ColumnWidth0><ColumnWidth1>59</ColumnWidth1><ColumnWidth2>717</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18388-8490</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-18872-28420</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-18511-26988</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>W5200EVB_App</ExpandedNode><ExpandedNode>W5200EVB_App/EWARMv5.4</ExpandedNode><ExpandedNode>W5200EVB_App/Output</ExpandedNode><ExpandedNode>W5200EVB_App/USER</ExpandedNode><ExpandedNode>W5200EVB_App/USER/APPs</ExpandedNode><ExpandedNode>W5200EVB_App/USER/W5200</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\W5200\w5200.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1041</SelStart><SelEnd>1041</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\W5200\w5200.h</Filename><XPos>0</XPos><YPos>291</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\W5200\socket.h</Filename><XPos>0</XPos><YPos>33</YPos><SelStart>848</SelStart><SelEnd>848</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\W5200\socket.c</Filename><XPos>0</XPos><YPos>250</YPos><SelStart>6850</SelStart><SelEnd>6850</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\main.c</Filename><XPos>0</XPos><YPos>107</YPos><SelStart>3440</SelStart><SelEnd>3440</SelEnd></Tab><ActiveTab>4</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\util.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>320</SelStart><SelEnd>320</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\util.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>154</SelStart><SelEnd>154</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\APPs\romfile.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1430</SelStart><SelEnd>1430</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug\List\W5200EVB_App.map</Filename><XPos>0</XPos><YPos>356</YPos><SelStart>23350</SelStart><SelEnd>24546</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00b1a0c8><key>iaridepm.enu1</key></Toolbar-00b1a0c8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>713</Bottom><Right>668</Right><x>-2</x><y>-2</y><xscreen>1900</xscreen><yscreen>1133</yscreen><sizeHorzCX>989583</sizeHorzCX><sizeHorzCY>1163244</sizeHorzCY><sizeVertCX>348958</sizeVertCX><sizeVertCY>734086</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>216</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>218</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>223819</sizeHorzCY><sizeVertCX>989583</sizeVertCX><sizeVertCY>1163244</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

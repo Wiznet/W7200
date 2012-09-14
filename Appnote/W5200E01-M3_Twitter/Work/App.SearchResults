@@ -1,0 +1,31 @@
+---- ch_status Matches (30 in 3 files) ----
+Loopback.c (app\source\apps):extern uint8 ch_status[MAX_SOCK_NUM];
+Loopback.c (app\source\apps):		if(ch_status[s]==1)
+Loopback.c (app\source\apps):			ch_status[s] = 2;
+Loopback.c (app\source\apps):		ch_status[s] = 0;
+Loopback.c (app\source\apps):		if(!ch_status[s]) 
+Loopback.c (app\source\apps):			ch_status[s] = 1;
+Loopback.c (app\source\apps):			ch_status[s] = 0;
+Loopback.c (app\source\apps):			if(!ch_status[s]) 
+Loopback.c (app\source\apps):				ch_status[s] = 1;
+Loopback.c (app\source\apps):				ch_status[s] = 0;
+Loopback.c (app\source\apps):			ch_status[s] = 0;
+Loopback.c (app\source\apps):		if(ch_status[s]==1)
+Loopback.c (app\source\apps):			ch_status[s] = 2;
+Loopback.c (app\source\apps):		ch_status[s] = 0;
+Loopback.c (app\source\apps):		if(!ch_status[s]) 
+Loopback.c (app\source\apps):			ch_status[s] = 1;
+Loopback.c (app\source\apps):			ch_status[s] = 0;
+Loopback.c (app\source\apps):		if(ch_status[s]==1)
+Loopback.c (app\source\apps):			ch_status[s] = 2;
+Loopback.c (app\source\apps):		ch_status[s] = 0;
+Loopback.c (app\source\apps):		if(!ch_status[s])
+Loopback.c (app\source\apps):			ch_status[s] = 1;
+Loopback.c (app\source\apps):			ch_status[s] = 0;
+Main.c (app\source):uint8 ch_status[MAX_SOCK_NUM] = { 0, };	/** 0:close, 1:ready, 2:connected */
+Telnet.c (app\source\apps):extern uint8 ch_status[MAX_SOCK_NUM];
+Telnet.c (app\source\apps):      if(ch_status[s] == ready_state) {  // ready       
+Telnet.c (app\source\apps):        ch_status[s] = connected_state;      // connected
+Telnet.c (app\source\apps):     if(!ch_status[s]) {
+Telnet.c (app\source\apps):       ch_status[s] = ready_state;           
+Telnet.c (app\source\apps):       ch_status[s] = close_state;
